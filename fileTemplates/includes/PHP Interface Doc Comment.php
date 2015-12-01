@@ -1,0 +1,4 @@
+/**
+ * Interface ${NAME}
+#end
+ */

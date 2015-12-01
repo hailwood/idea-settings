@@ -1,0 +1,180 @@
+<templateSet group="SilverStripe PHP">
+  <template name="has_many" value="private static $has_many = [&#10;    $END$&#10;];" description="Has many" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="cmsFields" value="public function getCMSFields(){&#10;&#10;    $this-&gt;beforeUpdateCMSFields(function(FieldList $fields) {&#10;&#9;&#9;$END$&#10;&#9;});&#10;&#10;&#9;$fields = parent::getCMSFields();&#10;&#10;&#9;return $fields;&#10;}" description="GetCMSFields() function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="has_one" value="private static $has_one = [&#10;    $END$&#10;];" description="Has one" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="db_fields" value="private static $db = [&#10;    $END$&#10;];" description="DB Fields" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="add_field" value="$fields-&gt;addFieldToTab('$TAB$', $FIELDTYPE$::create('$FIELDTITLE$', '$FIELDTITLE$'), '$BEFORE$');" description="Add Field" toReformat="true" toShortenFQNames="true">
+    <variable name="TAB" expression="" defaultValue="&quot;Root.Main&quot;" alwaysStopAt="true" />
+    <variable name="FIELDTYPE" expression="" defaultValue="&quot;TextField&quot;" alwaysStopAt="true" />
+    <variable name="FIELDTITLE" expression="underscoresToSpaces(String)" defaultValue="" alwaysStopAt="true" />
+    <variable name="BEFORE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="UF:create" value="FileAttachmentField::create('$NAME$', '$LABEL$')-&gt;setFolderName('Images/$FOLDER$')$ONLYIMAGES$$END$" description="SS Upload Field" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;Image&quot;" alwaysStopAt="true" />
+    <variable name="LABEL" expression="capitalize(underscoresToSpaces(snakeCase(NAME)))" defaultValue="" alwaysStopAt="true" />
+    <variable name="FOLDER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ONLYIMAGES" expression="" defaultValue="&quot;-&gt;imagesOnly()&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="many_many" value="private static $many_many = [&#10;    $END$&#10;];" description="Many many" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="field_labels" value="private static $field_labels = [&#10;    $END$&#10;];" description="Silverstripe Field Labels" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="can" value="public function canView($member = null) {&#10;&#9;&#9;return $CAN$;&#10;&#9;}&#10;&#10;&#9;public function canEdit($member = null) {&#10;&#9;&#9;return $CAN$;&#10;&#9;}&#10;&#10;&#9;public function canDelete($member = null) {&#10;&#9;&#9;return $CAN$;&#10;&#9;}&#10;&#10;&#9;public function canCreate($member = null) {&#10;&#9;&#9;return $CAN$;&#10;&#9;}" description="All canXXX Actions" toReformat="true" toShortenFQNames="true">
+    <variable name="CAN" expression="" defaultValue="true" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="canDefault" value="public function canView($member = null) {&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}&#10;&#10;public function canEdit($member = null) {&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}&#10;&#10;public function canDelete($member = null) {&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}&#10;&#10;public function canCreate($member = null) {&#10;    return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);&#10;}" description="All default canXXX Actions" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="GF:gallery" value="$$$NAME$Config = new GridFieldConfig_RecordEditor();&#10;$$$NAME$Config-&gt;removeComponentsByType('GridFieldAddNewButton');&#10;$$$NAME$Config-&gt;addComponent($bulkUploadConfig = new GridFieldBulkUpload());&#10;$$$NAME$Config-&gt;addComponent(new GridFieldSortableRows('SortOrder'));&#10;$$$NAME$Config-&gt;addComponent(new GridFieldGalleryTheme('Image'));&#10;$bulkUploadConfig-&gt;setUfSetup('setFolderName', 'Images/$LOCATION$');&#10;$$$NAME$ = new GridField(&quot;$NAME$GridField&quot;, &quot;$TITLE$&quot;, $this-&gt;$RELATION$(), $$$NAME$Config);&#10;$fields-&gt;addFieldToTab('Root.$TAB$', $$$NAME$);" description="Gallery Theme Gridfield" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LOCATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TITLE" expression="capitalize(underscoresToSpaces(snakeCase(NAME)))" defaultValue="" alwaysStopAt="true" />
+    <variable name="RELATION" expression="" defaultValue="NAME" alwaysStopAt="true" />
+    <variable name="TAB" expression="" defaultValue="NAME" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="GF:relation" value="$$$NAME$Config = new GridFieldConfig_RelationEditor();&#10;$$$NAME$Config-&gt;addComponent(new GridFieldSortableRows('SortOrder'));&#10;$$$NAME$ = new GridField(&quot;$NAME$GridField&quot;, &quot;$TITLE$&quot;, $this-&gt;$RELATION$(), $$$NAME$Config);&#10;$fields-&gt;addFieldToTab('Root.$TAB$', $$$NAME$);" description="Relation Editor Gridfield" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TITLE" expression="capitalize(underscoresToSpaces(snakeCase(NAME)))" defaultValue="NAME" alwaysStopAt="true" />
+    <variable name="RELATION" expression="" defaultValue="NAME" alwaysStopAt="true" />
+    <variable name="TAB" expression="" defaultValue="NAME" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="GF:record" value="$$$NAME$Config = new GridFieldConfig_RecordEditor();&#10;$$$NAME$Config-&gt;addComponent(new GridFieldSortableRows('SortOrder'));&#10;$$$NAME$ = new GridField(&quot;$NAME$GridField&quot;, &quot;$TITLE$&quot;, $this-&gt;$RELATION$(), $$$NAME$Config);&#10;$fields-&gt;addFieldToTab('Root.$TAB$', $$$NAME$);" description="Record Editor Gridfield" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TITLE" expression="capitalize(underscoresToSpaces(snakeCase(NAME)))" defaultValue="NAME" alwaysStopAt="true" />
+    <variable name="RELATION" expression="" defaultValue="NAME" alwaysStopAt="true" />
+    <variable name="TAB" expression="" defaultValue="NAME" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="DDF:create" value="DropdownField::create('$NAME$', '$LABEL$', $SOURCE$),$END$" description="Silverstripe Displayed Dropdown Field" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;Displayed&quot;" alwaysStopAt="true" />
+    <variable name="LABEL" expression="capitalize(underscoresToSpaces(snakeCase(NAME)))" defaultValue="" alwaysStopAt="true" />
+    <variable name="SOURCE" expression="" defaultValue="&quot;[1 =&gt; 'Displayed', 0 =&gt; 'Hidden']&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="defaults" value="private static $defaults = [&#10;&#9;'$LABEL$' =&gt; $VALUE$$END$&#10;];" description="Default Values" toReformat="true" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="&quot;Displayed&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;true&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="default_sort" value="private static $default_sort = '$SORT$';$END$" description="Default Sort Order" toReformat="true" toShortenFQNames="true">
+    <variable name="SORT" expression="" defaultValue="&quot;SortOrder&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="TF:create" value="TextField::create('$NAME$', '$LABEL$')$END$" description="SS Text Field" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="capitalize(underscoresToSpaces(snakeCase(NAME)))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="LF:create" value="LinkField::create('$NAME$ID', '$LABEL$')$END$" description="SS Link Field" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="capitalize(underscoresToSpaces(snakeCase(NAME)))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="HE:create" value="HTMLEditorField::create('$NAME$', '$LABEL$')$END$" description="SS HTMLEditor Field" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="capitalize(underscoresToSpaces(snakeCase(NAME)))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="add_fields" value="$fields-&gt;addFieldsToTab('$TAB$', [&#10;&#9;$END$&#10;]);" description="Add Fields to tab" toReformat="true" toShortenFQNames="true">
+    <variable name="TAB" expression="" defaultValue="&quot;Root.Main&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="summary_fields" value="private static $summary_fields = [&#10;&#9;'$LABEL$' =&gt; '$VALUE$'$END$&#10;];" description="Summary Fields" toReformat="true" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="&quot;Title&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;Title&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="EF:create" value="EmailField::create('$NAME$', '$LABEL$')$END$" description="SS Email Field" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;Email&quot;" alwaysStopAt="true" />
+    <variable name="LABEL" expression="capitalize(underscoresToSpaces(snakeCase(NAME)))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="TAF:create" value="TextareaField::create('$NAME$', '$LABEL$')$END$" description="SS Textarea Field" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="capitalize(underscoresToSpaces(snakeCase(NAME)))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="DF:create" value="DateField::create('$NAME$', '$LABEL$')-&gt;setConfig('showcalendar', true)$END$" description="SS Date Field" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="capitalize(underscoresToSpaces(snakeCase(NAME)))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="allowed_children" value="private static $allowed_children = [$END$];" description="SS Allowed Children" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="default_parent" value="private static $default_parent = '$END$';" description="SS Default Parent" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="SS:DA" value="Security::setDefaultAdmin('$USER$','$PASS$');$END$" description="SilverStripe Set Default Admin" toReformat="true" toShortenFQNames="true">
+    <variable name="USER" expression="" defaultValue="'admin'" alwaysStopAt="true" />
+    <variable name="PASS" expression="" defaultValue="'password'" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
