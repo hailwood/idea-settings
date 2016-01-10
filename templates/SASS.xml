@@ -1,0 +1,7 @@
+<templateSet group="SASS">
+  <template name="hs" value="&amp;:hover, &amp;:active, &amp;:focus {&#10;    &#10;}" description="CSS Hover States" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+</templateSet>
