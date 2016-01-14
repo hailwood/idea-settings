@@ -1,0 +1,7 @@
+<templateSet group="SilverStripe PHP">
+  <template name="TCF:c" value="ToggleCompositeField::create('', ''), [&#10;    &#10;])," description="Toggle Composite Field" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
