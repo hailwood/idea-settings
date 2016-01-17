@@ -367,9 +367,6 @@
         <option name="EFFECT_COLOR" value="4a4848" />
       </value>
     </option>
-    <option name="JSP_DIRECTIVE_BACKGROUND">
-      <value />
-    </option>
     <option name="JSP_SCRIPTING_BACKGROUND">
       <value />
     </option>
@@ -550,9 +547,6 @@
       <value>
         <option name="FOREGROUND" value="b95e66" />
       </value>
-    </option>
-    <option name="REGEXP.BAD_CHARACTER">
-      <value />
     </option>
     <option name="REGEXP.INVALID_STRING_ESCAPE">
       <value>
