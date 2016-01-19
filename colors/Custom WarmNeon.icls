@@ -855,7 +855,6 @@
         <option name="BACKGROUND" value="2a526e" />
       </value>
     </option>
-    <option name="PHP_VAR" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="PROPERTIES.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="e75252" />
