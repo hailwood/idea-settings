@@ -14,4 +14,11 @@
       <option name="SILVERSTRIPE" value="true" />
     </context>
   </template>
+  <template name="xl" value="&lt;a href=&quot;http://www.xplore.net/&quot; target=&quot;_blank&quot;&gt;&#10;    Site by Xplore – your web agency&#10;&lt;/a&gt;" description="Xplore Link" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="SILVERSTRIPE" value="true" />
+    </context>
+  </template>
 </templateSet>
