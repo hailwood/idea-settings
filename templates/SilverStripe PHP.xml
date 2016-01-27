@@ -118,7 +118,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="HE:create" value="HTMLEditorField::create('$NAME$', '$LABEL$')$END$" description="SS HTMLEditor Field" toReformat="true" toShortenFQNames="true">
+  <template name="HE:create" value="HtmlEditorField::create('$NAME$', '$LABEL$')$END$" description="SS HTMLEditor Field" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="LABEL" expression="capitalize(underscoresToSpaces(snakeCase(NAME)))" defaultValue="" alwaysStopAt="true" />
     <context>
