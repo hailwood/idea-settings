@@ -176,4 +176,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="restrict_parent" value=" private static $can_be_root = false;&#10;&#10;private static $default_parent = '$END$';&#10;&#10;private static $allowed_children = false;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
