@@ -181,4 +181,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="cms_name" value="protected static $singular_name = '$NAME$';&#10;protected static $plural_name   = '$NAME$';" description="Set singular and plural name" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
