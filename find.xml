@@ -1,7 +1,9 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="File '/home/otis/Developer/Work/FreeParking/wam/client/src/javascript/layout.js'" />
     <option name="defaultScopeName" value="File '/home/otis/Developer/Work/FreeParking/wam/client/src/javascript/layout.js'" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="File '/home/otis/Developer/Work/FreeParking/wam/client/src/javascript/layout.js'" />
   </component>
 </application>
