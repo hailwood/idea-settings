@@ -1,0 +1,13 @@
+<templateSet group="SilverStripe Template">
+  <template name="iif" value="&lt;% if $$$ifVar$ %&gt;$ACTION$$END$&lt;% end_if %&gt;" description="An inline if block" toReformat="true" toShortenFQNames="true">
+    <variable name="ifVar" expression="" defaultValue="&quot;First&quot;" alwaysStopAt="true" />
+    <variable name="ACTION" expression="" defaultValue="&quot;active&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="iife" value="&lt;% if $$$ifVar$ %&gt;$ACTION$&lt;% else %&gt;$ACTION2$&lt;% end_if %&gt;$END$" description="An inline if-else block" toReformat="true" toShortenFQNames="true">
+    <variable name="ifVar" expression="" defaultValue="&quot;First&quot;" alwaysStopAt="true" />
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTION2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

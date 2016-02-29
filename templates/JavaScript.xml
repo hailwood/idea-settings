@@ -1,0 +1,11 @@
+<templateSet group="JavaScript">
+  <template name="rq" value="require('$REQUIREMENT$');$END$" description="require(...)" toReformat="true" toShortenFQNames="true">
+    <variable name="REQUIREMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
