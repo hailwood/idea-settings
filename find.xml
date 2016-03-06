@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '/home/matthew/Projects/webfox/black-and-white/app/Http/Controllers/Api/UserReviewController.php'" />
-    <option name="defaultScopeName" value="File '/home/matthew/Projects/webfox/black-and-white/app/Http/Controllers/Api/UserReviewController.php'" />
-    <option name="SEARCH_SCOPE" value="File '/home/matthew/Projects/webfox/black-and-white/app/Http/Controllers/Api/UserReviewController.php'" />
+    <option name="customScope" value="Exc" />
+    <option name="defaultScopeName" value="Exc" />
+    <option name="SEARCH_SCOPE" value="Exc" />
   </component>
 </application>
