@@ -55,6 +55,9 @@
     <selectInFileManagerName value="Nautilus" />
     <nativeExtensions value="" />
   </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node" />
+  </component>
   <component name="PhpRefactoringSettings">
     <option name="EXTRACT_FIELD_DEFAULT_VISIBILITY" value="protected" />
   </component>
