@@ -362,6 +362,12 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ba7935" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="CUSTOM_NUMBER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f36e3a" />
@@ -385,7 +391,7 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="546e7a" />
+        <option name="FOREGROUND" value="ba7935" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -471,7 +477,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="546e7a" />
+        <option name="FOREGROUND" value="ba7935" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
@@ -663,7 +669,7 @@
     </option>
     <option name="HTML_COMMENT">
       <value>
-        <option name="FOREGROUND" value="505c63" />
+        <option name="FOREGROUND" value="ba7935" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
