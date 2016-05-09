@@ -4,9 +4,6 @@
       <properties>
         <option name="frameworkName" value="Knockout" />
         <option name="frameworkVersion" value="3.4.0" />
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_knockout_3.4.0_knockout-debug.js" />
-        </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_knockout_3.4.0_knockout-debug.js" />
@@ -17,9 +14,6 @@
       <properties>
         <option name="frameworkName" value="Knockout" />
         <option name="frameworkVersion" value="2.4.1" />
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_knockout.mapping_2.4.1_knockout.mapping.js" />
-        </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_knockout.mapping_2.4.1_knockout.mapping.js" />
