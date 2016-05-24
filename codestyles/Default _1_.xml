@@ -1,4 +1,5 @@
 <code_scheme name="Default (1)">
+  <option name="RIGHT_MARGIN" value="200" />
   <JSCodeStyleSettings>
     <option name="ALIGN_OBJECT_PROPERTIES" value="1" />
     <option name="ALIGN_MULTIPLE_ASSIGNMENTS" value="true" />
