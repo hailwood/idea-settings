@@ -59,6 +59,9 @@
     <local-interpreter path="/usr/bin/node">
       <version-cache last-modified="0" />
     </local-interpreter>
+    <local-interpreter path="/opt/nodejs/bin/node">
+      <version-cache version="6.1.0" last-modified="1462484516000" />
+    </local-interpreter>
   </component>
   <component name="PhpRefactoringSettings">
     <option name="EXTRACT_FIELD_DEFAULT_VISIBILITY" value="protected" />
