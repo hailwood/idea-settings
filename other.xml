@@ -47,6 +47,12 @@
     <option name="SEND_ENVIRONMENT_VARIABLES_TO_SERVER" value="false" />
     <option name="SHOW_PATH" value="true" />
   </component>
+  <component name="ErrorReportConfigurable">
+    <option name="ITN_LOGIN" value="hailwood" />
+    <option name="ITN_PASSWORD_CRYPT" value="VW5sMW0xdDNk" />
+    <option name="KEEP_ITN_PASSWORD" value="true" />
+    <option name="EMAIL" value="" />
+  </component>
   <component name="NativeNeighbourhoodPlugin">
     <iconsDir value="linuxgnome" />
     <executeWithDefaultAppCommand value="gnome-open|$FilePath$" tokenizerDelims="|" />

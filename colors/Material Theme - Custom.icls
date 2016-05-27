@@ -8,8 +8,7 @@
     <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
     <option name="EDITOR_FONT_SIZE" value="12" />
   </font>
-  <option name="CONSOLE_FONT_NAME" value="Ubuntu Mono derivative Powerline" />
-  <option name="CONSOLE_FONT_SIZE" value="16" />
+  <option name="CONSOLE_FONT_NAME" value="Roboto Mono for Powerline" />
   <option name="CONSOLE_LIGATURES" value="true" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="212c32" />
@@ -17,7 +16,7 @@
     <option name="BORDER_LINES_COLOR" value="" />
     <option name="CARET_COLOR" value="ffcc00" />
     <option name="CARET_ROW_COLOR" value="222f35" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="263238" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="323232" />
     <option name="DELETED_LINES_COLOR" value="f77669" />
     <option name="FILESTATUS_ADDED" value="80cbc4" />
     <option name="FILESTATUS_COPIED" value="659d9a" />
@@ -32,7 +31,6 @@
     <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="546e7a" />
     <option name="FILESTATUS_MERGED" value="65738e" />
     <option name="FILESTATUS_MODIFIED" value="80cbc4" />
-    <option name="FILESTATUS_NOT_CHANGED" value="" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
@@ -152,14 +150,19 @@
         <option name="FOREGROUND" value="536c46" />
       </value>
     </option>
+    <option name="CONSOLE_BLACK_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="323232" />
+      </value>
+    </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="7eaef1" />
+        <option name="FOREGROUND" value="5eb7f7" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="5394ec" />
+        <option name="FOREGROUND" value="4098ff" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
@@ -179,7 +182,7 @@
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="999999" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
