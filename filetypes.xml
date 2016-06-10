@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="markupErrors" type="PLAIN_TEXT" />
       <mapping pattern="GalleryPage" type="PLAIN_TEXT" />
+      <mapping pattern="silverstripe_version" type="PLAIN_TEXT" />
       <mapping pattern="compilationErrors" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="platformOutput" type="PLAIN_TEXT" />
