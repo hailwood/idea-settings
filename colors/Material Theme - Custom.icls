@@ -1,8 +1,8 @@
 <scheme name="Material Theme - Custom" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.6" />
   <font>
-    <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
+    <option name="EDITOR_FONT_NAME" value="Fira Code" />
+    <option name="EDITOR_FONT_SIZE" value="14" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
@@ -10,7 +10,6 @@
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
-  <option name="CONSOLE_FONT_SIZE" value="14" />
   <option name="CONSOLE_LIGATURES" value="true" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="212c32" />
