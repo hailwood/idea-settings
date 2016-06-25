@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern=".env" type="Ini" />
       <mapping pattern="markupErrors" type="PLAIN_TEXT" />
       <mapping pattern="GalleryPage" type="PLAIN_TEXT" />
       <mapping pattern="silverstripe_version" type="PLAIN_TEXT" />
