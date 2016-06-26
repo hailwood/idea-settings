@@ -1,6 +1,7 @@
 <scheme name="EddyAtom" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.6" />
   <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="CONSOLE_FONT_NAME" value="DroidSansMonoForPowerline Nerd Font" />
   <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="9933" />
@@ -11,7 +12,7 @@
     <option name="FILESTATUS_MODIFIED" value="5180ee" />
     <option name="FILESTATUS_UNKNOWN" value="ba7935" />
     <option name="FILESTATUS_modifiedOutside" value="5180ee" />
-    <option name="GUTTER_BACKGROUND" value="323743" />
+    <option name="GUTTER_BACKGROUND" value="292d35" />
     <option name="INDENT_GUIDE" value="3f4451" />
     <option name="LEFT_GUTTER_BACKGROUND" value="3f4b4e" />
     <option name="LINE_NUMBERS_COLOR" value="81969a" />
@@ -21,7 +22,7 @@
     <option name="SELECTED_TEARLINE_COLOR" value="5180ee" />
     <option name="SELECTION_BACKGROUND" value="3f4451" />
     <option name="SELECTION_FOREGROUND" value="" />
-    <option name="TEARLINE_COLOR" value="3f4451" />
+    <option name="TEARLINE_COLOR" value="1f2229" />
     <option name="WHITESPACES" value="32393b" />
   </colors>
   <attributes>
