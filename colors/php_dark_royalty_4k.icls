@@ -5,7 +5,7 @@
   <option name="CONSOLE_FONT_NAME" value="Source Code Pro" />
   <option name="CONSOLE_FONT_SIZE" value="10" />
   <option name="CONSOLE_LINE_SPACING" value="1.4" />
-  <option name="EDITOR_FONT_NAME" value="Hasklig" />
+  <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="292d38" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
@@ -21,7 +21,6 @@
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d5756c" />
     <option name="FILESTATUS_MERGED" value="ff4427" />
     <option name="FILESTATUS_MODIFIED" value="acc814" />
-    <option name="FILESTATUS_NOT_CHANGED" value="" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="acc814" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="acc814" />
     <option name="FILESTATUS_UNKNOWN" value="d1675a" />
