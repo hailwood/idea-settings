@@ -4,6 +4,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt o" />
   </action>
   <action id="OptimizeImports" />
+  <action id="PhpNewClass">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="RecentProjectListGroup">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
