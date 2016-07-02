@@ -67,6 +67,7 @@
     </local-interpreter>
     <local-interpreter path="/opt/nodejs/bin/node">
       <version-cache version="6.0.0" last-modified="1461699690000" />
+      <npm-package value="/opt/nodejs/lib/node_modules/npm" />
     </local-interpreter>
   </component>
   <component name="PhpRefactoringSettings">
