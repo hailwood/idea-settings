@@ -1,7 +1,6 @@
 <scheme name="EddyAtom" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.6" />
   <option name="EDITOR_FONT_SIZE" value="14" />
-  <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
   <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="9933" />
@@ -92,7 +91,6 @@
         <option name="FOREGROUND" value="cccccc" />
       </value>
     </option>
-    <option name="CONSOLE_RANGE_TO_EXECUTE" baseAttributes="INJECTED_LANGUAGE_FRAGMENT" />
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ff4645" />
@@ -446,9 +444,7 @@
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
-      <value>
-        <option name="BACKGROUND" value="292929" />
-      </value>
+      <value />
     </option>
     <option name="JS.ATTRIBUTE">
       <value>
@@ -557,8 +553,7 @@
     </option>
     <option name="JS.STATIC_MEMBER_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="660e7a" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="17b1cf" />
       </value>
     </option>
     <option name="JS.STRING">
@@ -863,7 +858,6 @@
         <option name="FOREGROUND" value="ec7600" />
       </value>
     </option>
-    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="cc99ff" />
