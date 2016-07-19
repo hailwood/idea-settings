@@ -15,6 +15,7 @@
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="def" type="PLAIN_TEXT" />
+      <mapping ext="ss" type="Perl" />
       <mapping pattern="*.yml.development" type="YAML" />
       <mapping pattern=".htaccess.development" type="htaccess" />
     </extensionMap>
