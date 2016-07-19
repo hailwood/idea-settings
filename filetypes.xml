@@ -2,7 +2,9 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".env" type="Ini" />
+      <mapping pattern=".env.development" type="Ini" />
       <mapping pattern="*.php.development" type="PHP" />
+      <mapping pattern=".env.php.development" type="PHP" />
       <mapping pattern="markupErrors" type="PLAIN_TEXT" />
       <mapping pattern="GalleryPage" type="PLAIN_TEXT" />
       <mapping pattern="silverstripe_version" type="PLAIN_TEXT" />
