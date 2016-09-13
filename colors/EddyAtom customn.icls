@@ -1,17 +1,9 @@
 <scheme name="EddyAtom customn" version="142" parent_scheme="Default">
-  <metaInfo>
-    <property name="created">2016-09-05T11:27:12</property>
-    <property name="ide">PhpStorm</property>
-    <property name="ideVersion">2016.3.0.0</property>
-    <property name="modified">2016-09-05T11:27:52</property>
-    <property name="originalScheme">EddyAtom</property>
-  </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
-  <option name="EDITOR_FONT_SIZE" value="15" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
-  <option name="CONSOLE_FONT_SIZE" value="14" />
-  <option name="EDITOR_FONT_NAME" value="Fira Code" />
+  <option name="EDITOR_FONT_NAME" value="FuraCode NF" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="9933" />
     <option name="ANNOTATIONS_COLOR" value="" />
