@@ -1,12 +1,13 @@
 <scheme name="EddyAtom customn" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="modified">2016-09-26T12:45:56</property>
+    <property name="modified">2016-10-17T09:34:19</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
-  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="EDITOR_FONT_SIZE" value="16" />
   <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
-  <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
+  <option name="CONSOLE_FONT_SIZE" value="14" />
+  <option name="EDITOR_FONT_NAME" value="Operator Mono Medium" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="9933" />
     <option name="ANNOTATIONS_COLOR" value="" />
