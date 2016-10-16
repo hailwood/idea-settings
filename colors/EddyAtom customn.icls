@@ -1,6 +1,6 @@
 <scheme name="EddyAtom customn" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="modified">2016-10-17T09:34:19</property>
+    <property name="modified">2016-10-17T10:19:53</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
   <option name="EDITOR_FONT_SIZE" value="16" />
@@ -264,7 +264,7 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="5180ee" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_LABEL" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -529,7 +529,6 @@
     <option name="JS.KEYWORD">
       <value>
         <option name="FOREGROUND" value="aa57cc" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JS.LINE_COMMENT">
@@ -666,7 +665,6 @@
     <option name="PHP_DOC_TAG">
       <value>
         <option name="FOREGROUND" value="bd7dd2" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
