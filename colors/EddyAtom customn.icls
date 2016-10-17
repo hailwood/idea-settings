@@ -1,6 +1,6 @@
 <scheme name="EddyAtom customn" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="modified">2016-10-17T10:19:53</property>
+    <property name="modified">2016-10-17T14:07:49</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
   <option name="EDITOR_FONT_SIZE" value="16" />
@@ -34,6 +34,7 @@
     <option name="APACHE_CONFIG.ARG_LEXEM">
       <value>
         <option name="FOREGROUND" value="a5de78" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="APACHE_CONFIG.IDENTIFIER">
@@ -253,6 +254,18 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_DOC_COMMENT_TAG">
+      <value>
+        <option name="EFFECT_COLOR" value="808080" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
+      <value>
+        <option name="FOREGROUND" value="3d3d3d" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="DEFAULT_ENTITY" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -287,7 +300,6 @@
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="a500" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
@@ -616,7 +628,6 @@
     <option name="MAGIC_MEMBER_ACCESS">
       <value>
         <option name="FOREGROUND" value="d09a66" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
@@ -681,13 +692,11 @@
     <option name="PHP_FUNCTION">
       <value>
         <option name="FOREGROUND" value="54afee" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="PHP_HEREDOC_CONTENT">
       <value>
         <option name="FOREGROUND" value="d09a66" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="PHP_HEREDOC_ID">
@@ -941,7 +950,7 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ff5959" />
+        <option name="FOREGROUND" value="ff5354" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME">
