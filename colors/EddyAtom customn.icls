@@ -1,6 +1,6 @@
 <scheme name="EddyAtom customn" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="modified">2016-10-17T14:07:49</property>
+    <property name="modified">2016-10-17T14:11:54</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
   <option name="EDITOR_FONT_SIZE" value="16" />
@@ -34,7 +34,7 @@
     <option name="APACHE_CONFIG.ARG_LEXEM">
       <value>
         <option name="FOREGROUND" value="a5de78" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="APACHE_CONFIG.IDENTIFIER">
