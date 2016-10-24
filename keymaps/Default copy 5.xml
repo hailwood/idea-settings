@@ -1,0 +1,6 @@
+<keymap version="1" name="Default copy 5" parent="Default for XWin">
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="Generate" />
+</keymap>
