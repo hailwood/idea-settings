@@ -3,6 +3,9 @@
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="Generate" />
+  <action id="Macro.isset">
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
