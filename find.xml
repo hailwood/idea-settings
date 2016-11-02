@@ -3,7 +3,6 @@
     <option name="customScope" value="Exc" />
     <option name="defaultScopeName" value="Exc" />
     <option name="SEARCH_SCOPE" value="Exc" />
-    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
