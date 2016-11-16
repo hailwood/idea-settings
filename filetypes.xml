@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="Dockerfile.development" type="Dockerfile" />
       <mapping pattern=".env" type="Ini" />
       <mapping pattern=".env.development" type="Ini" />
       <mapping pattern="*.php.development" type="PHP" />
