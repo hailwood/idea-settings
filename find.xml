@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="CMS &amp; Framework" />
     <option name="defaultScopeName" value="CMS &amp; Framework" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="CMS &amp; Framework" />
     <recentFileMasks>
       <mask>*.properties</mask>
