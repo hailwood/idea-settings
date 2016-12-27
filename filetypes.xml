@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="Dockerfile.development" type="Dockerfile" />
+      <mapping ext="docker" type="Dockerfile" />
       <mapping pattern=".env" type="Ini" />
       <mapping pattern=".env.development" type="Ini" />
       <mapping pattern="*.php.development" type="PHP" />
@@ -14,8 +15,8 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="platformOutput" type="PLAIN_TEXT" />
       <mapping pattern="ServicesPage" type="PLAIN_TEXT" />
-      <mapping pattern="serial" type="PLAIN_TEXT" />
       <mapping pattern="zend_cache---wam_pricingextension_to_product" type="PLAIN_TEXT" />
+      <mapping pattern="serial" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="text" type="PLAIN_TEXT" />
       <mapping ext="tmp" type="PLAIN_TEXT" />
