@@ -1,9 +1,4 @@
 <application>
-  <component name="PhpInterpreters">
-    <interpreters>
-      <interpreter home="/usr/bin/php" id="c3463425-c04a-4a83-b781-557a2fc7d4cb" name="PHP 7" debugger_id="php.debugger.XDebug" debugger_extension="/usr/lib/php/20151012/xdebug.so" />
-    </interpreters>
-  </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7">
@@ -384,9 +379,5 @@
         </phpinfo>
       </interpreter>
     </phpInfoCache>
-  </component>
-  <component name="PhpSmartKeysConfiguration">
-    <option name="selectVariableNameWithoutDollar" value="true" />
-    <option name="smartFunctionParametersCompletion" value="true" />
   </component>
 </application>
