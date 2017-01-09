@@ -1,7 +1,7 @@
 <scheme name="EddyAtom customn" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="modified">2017-01-08T13:01:10</property>
+    <property name="modified">2017-01-09T12:56:19</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
   <option name="EDITOR_FONT_SIZE" value="16" />
@@ -474,6 +474,11 @@
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value />
+    </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="7a7a7a" />
+      </value>
     </option>
     <option name="JS.ATTRIBUTE">
       <value>
