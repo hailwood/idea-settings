@@ -3,7 +3,6 @@
     <option name="customScope" value="Our Code" />
     <option name="defaultScopeName" value="Our Code" />
     <option name="SEARCH_SCOPE" value="Our Code" />
-    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
