@@ -1,7 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="vhtml" type="HTML" />
+      <mapping ext="vhtml" type="Handlebars/Mustache" />
       <mapping pattern=".env" type="Ini" />
       <mapping pattern="*.yml.development" type="YAML" />
     </extensionMap>
