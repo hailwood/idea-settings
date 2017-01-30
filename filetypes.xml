@@ -1,8 +1,8 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="vhtml" type="Handlebars/Mustache" />
       <mapping pattern=".env" type="Ini" />
+      <mapping ext="vhtml" type="Vue.js file" />
       <mapping pattern="*.yml.development" type="YAML" />
     </extensionMap>
   </component>
