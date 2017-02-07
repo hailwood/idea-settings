@@ -2,8 +2,9 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".env" type="Ini" />
-      <mapping ext="vhtml" type="Vue.js file" />
+      <mapping pattern=".graphqlrc" type="JSON" />
       <mapping pattern="*.yml.development" type="YAML" />
+      <mapping ext="vhtml" type="Vue.js file" />
     </extensionMap>
   </component>
 </application>
