@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="JavaScript" injector-id="xml">
+      <display-name>ingredient/@@select</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().matches("@select")).withParent(xmlTag().withLocalName(string().equalTo("ingredient")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+  </component>
+</application>
