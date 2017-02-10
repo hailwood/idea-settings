@@ -1,0 +1,5 @@
+<application>
+  <component name="TemplateDataLanguagePatterns">
+    <pattern value="*.vhtml" lang="HTML" />
+  </component>
+</application>
