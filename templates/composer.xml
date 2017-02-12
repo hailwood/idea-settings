@@ -1,0 +1,8 @@
+<templateSet group="composer">
+  <template name="c:repo" value="&quot;repositories&quot;: [&#10;  {&#10;    &quot;type&quot;: &quot;vcs&quot;,&#10;    &quot;url&quot;: &quot;$URL$&quot;&#10;  }&#10;]$END$" description="Composer repositories key" toReformat="false" toShortenFQNames="true">
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+</templateSet>
