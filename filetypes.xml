@@ -4,6 +4,7 @@
       <mapping ext="vhtml" type="Handlebars/Mustache" />
       <mapping pattern=".env" type="Ini" />
       <mapping pattern=".graphqlrc" type="JSON" />
+      <mapping pattern="*.php.development" type="PHP" />
       <mapping pattern="*.yml.development" type="YAML" />
     </extensionMap>
   </component>
