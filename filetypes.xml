@@ -1,9 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="vhtml" type="Handlebars/Mustache" />
+      <mapping ext="vhtml" type="HTML" />
       <mapping pattern=".env" type="Ini" />
       <mapping pattern=".graphqlrc" type="JSON" />
+      <mapping pattern="*.php.development" type="PHP" />
       <mapping pattern="*.yml.development" type="YAML" />
     </extensionMap>
   </component>
