@@ -6,4 +6,10 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="bind" value="this.$FUNC$ = this.$FUNC$.bind(this);" shortcut="SPACE" description="Bind a function" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNC" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
