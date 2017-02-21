@@ -9,20 +9,8 @@
       <place><![CDATA[xmlAttribute().withLocalName(string().matches("@select")).withParent(xmlTag().withLocalName(string().equalTo("ingredient")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
     </injection>
     <injection language="JavaScript" injector-id="xml">
-      <display-name>ingredient/@ingredient</display-name>
-      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("ingredient")).withParent(xmlTag().withLocalName(string().equalTo("ingredient")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
-    </injection>
-    <injection language="JavaScript" injector-id="xml">
       <display-name>ingredient/@isSelected</display-name>
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("isSelected")).withParent(xmlTag().withLocalName(string().equalTo("ingredient")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
-    </injection>
-    <injection language="JavaScript" injector-id="xml">
-      <display-name>ingredient/@purposes</display-name>
-      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("purposes")).withParent(xmlTag().withLocalName(string().equalTo("ingredient")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
-    </injection>
-    <injection language="JavaScript" injector-id="xml">
-      <display-name>ingredient/@v-for</display-name>
-      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("v-for")).withParent(xmlTag().withLocalName(string().equalTo("ingredient")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
     </injection>
   </component>
 </application>
