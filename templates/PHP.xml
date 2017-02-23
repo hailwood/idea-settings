@@ -28,4 +28,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="se" value="#region $NAME$&#10;$writer-&gt;startElement('$NAME$');&#10;    $END$&#10;$writer-&gt;endElement();&#10;#endregion" description="$writer-&gt;startElement" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
 </templateSet>
