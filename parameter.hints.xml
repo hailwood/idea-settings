@@ -1,7 +1,9 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
-      <blacklist language="PHP" />
+      <blacklist language="PHP">
+        <added pattern="\XMLWriter.writeElement(name,content)" />
+      </blacklist>
     </blacklists>
   </component>
 </application>
