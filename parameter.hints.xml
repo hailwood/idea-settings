@@ -3,6 +3,8 @@
     <blacklists>
       <blacklist language="PHP">
         <added pattern="\XMLWriter.writeElement(name,content)" />
+        <added pattern="\FormFiveXMLBuilder.mapToXML(type,value)" />
+        <added pattern="\FormFiveXMLBuilder.writeAddressBlock(field,timeField)" />
       </blacklist>
     </blacklists>
   </component>
