@@ -6,6 +6,7 @@
       <mapping pattern=".env" type="Ini" />
       <mapping pattern=".graphqlrc" type="JSON" />
       <mapping pattern="*.php.development" type="PHP" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="not_real" type="PLAIN_TEXT" />
       <mapping pattern="*.yml.development" type="YAML" />
       <mapping pattern=".htaccess.development" type="htaccess" />
