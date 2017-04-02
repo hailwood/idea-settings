@@ -19,6 +19,11 @@
       <mask>*.tpl</mask>
       <mask>*.js</mask>
       <mask>*.php</mask>
+      <mask>*.ph</mask>
+      <mask>*.p</mask>
+      <mask>*.ss</mask>
+      <mask>*.s</mask>
+      <mask>*.</mask>
     </recentFileMasks>
   </component>
 </application>
