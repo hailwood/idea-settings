@@ -1,12 +1,14 @@
 <scheme name="EddyAtom customn" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0833334" />
   <metaInfo>
-    <property name="modified">2017-04-03T15:26:00</property>
+    <property name="modified">2017-04-05T11:40:12</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
   <option name="EDITOR_FONT_SIZE" value="16" />
   <option name="EDITOR_LIGATURES" value="true" />
-  <option name="EDITOR_FONT_NAME" value="Fira Code Medium" />
+  <option name="CONSOLE_FONT_NAME" value="Fira Code Medium" />
+  <option name="CONSOLE_LIGATURES" value="true" />
+  <option name="EDITOR_FONT_NAME" value="Fira Code Retina" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="" />
     <option name="ANNOTATIONS_COLOR" value="3c3f41" />
