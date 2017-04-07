@@ -6,6 +6,7 @@
         <added pattern="\FormFiveXMLBuilder.mapToXML(type,value)" />
         <added pattern="\FormFiveXMLBuilder.writeAddressBlock(field,timeField)" />
         <added pattern="\Form.addErrorMessage(fieldName,message,messageType,escapeHtml)" />
+        <added pattern="\compact(varname,_)" />
       </blacklist>
     </blacklists>
   </component>
