@@ -34,4 +34,9 @@
       <option name="PHP Statement" value="true" />
     </context>
   </template>
+  <template name="fields" value="public function getCMSFields(){&#10;    $this-&gt;beforeUpdateCMSFields(function(FieldList $fields){&#10;        $END$&#10;    });&#10;    &#10;    $fields = parent::getCMSFields();&#10;    &#10;    return $fields;&#10;}" description="Silverstripe CMS Fields" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
