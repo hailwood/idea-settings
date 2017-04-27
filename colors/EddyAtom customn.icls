@@ -1,7 +1,7 @@
 <scheme name="EddyAtom customn" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0833334" />
   <metaInfo>
-    <property name="modified">2017-04-05T11:40:12</property>
+    <property name="modified">2017-04-28T11:33:22</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
   <option name="EDITOR_FONT_SIZE" value="16" />
@@ -881,6 +881,11 @@
     <option name="SQL_STRING">
       <value>
         <option name="FOREGROUND" value="ec7600" />
+      </value>
+    </option>
+    <option name="SS_BLOCK_VAR">
+      <value>
+        <option name="FOREGROUND" value="e4577d" />
       </value>
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
