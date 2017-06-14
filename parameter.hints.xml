@@ -8,6 +8,7 @@
         <added pattern="\Form.addErrorMessage(fieldName,message,messageType,escapeHtml)" />
         <added pattern="\compact(varname,_)" />
         <added pattern="\array_diff(array1,array2,_)" />
+        <added pattern="\date(format,timestamp)" />
       </blacklist>
     </blacklists>
   </component>
