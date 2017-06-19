@@ -1,7 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <removed_mapping pattern=".env" type=".env file" />
       <mapping pattern="Dockerfile.development" type="Dockerfile" />
+      <mapping ext="docker" type="Dockerfile" />
       <mapping ext="vhtml" type="HTML" />
       <mapping pattern=".env" type="Ini" />
       <mapping pattern=".graphqlrc" type="JSON" />
