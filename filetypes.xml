@@ -5,11 +5,13 @@
       <mapping pattern="Dockerfile.development" type="Dockerfile" />
       <mapping ext="docker" type="Dockerfile" />
       <mapping ext="vhtml" type="HTML" />
+      <removed_mapping ext="html" type="HTML" />
       <mapping pattern=".env" type="Ini" />
       <mapping pattern=".graphqlrc" type="JSON" />
       <mapping pattern="*.php.development" type="PHP" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="not_real" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping ext="html" type="Vue.js" />
       <mapping pattern="*.yml.development" type="YAML" />
       <mapping pattern=".htaccess.development" type="htaccess" />
     </extensionMap>
