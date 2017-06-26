@@ -9,6 +9,7 @@
         <added pattern="\compact(varname,_)" />
         <added pattern="\array_diff(array1,array2,_)" />
         <added pattern="\date(format,timestamp)" />
+        <added pattern="\sprintf(format,args,_)" />
       </blacklist>
     </blacklists>
   </component>
