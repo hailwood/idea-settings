@@ -11,6 +11,7 @@
         <added pattern="\date(format,timestamp)" />
         <added pattern="\sprintf(format,args,_)" />
         <added pattern="\DataList.limit(limit,offset)" />
+        <added pattern="\CMSMain.LinkPageAdd(extra,placeholders)" />
       </blacklist>
     </blacklists>
   </component>
