@@ -13,6 +13,7 @@
         <added pattern="\DataList.limit(limit,offset)" />
         <added pattern="\CMSMain.LinkPageAdd(extra,placeholders)" />
         <added pattern="\Illuminate\Routing\Route.name(name)" />
+        <added pattern="\DateTime.format(format)" />
       </blacklist>
     </blacklists>
   </component>
