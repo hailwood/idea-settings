@@ -12,6 +12,7 @@
         <added pattern="\sprintf(format,args,_)" />
         <added pattern="\DataList.limit(limit,offset)" />
         <added pattern="\CMSMain.LinkPageAdd(extra,placeholders)" />
+        <added pattern="\Illuminate\Routing\Route.name(name)" />
       </blacklist>
     </blacklists>
   </component>
