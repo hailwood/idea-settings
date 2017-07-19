@@ -1,0 +1,8 @@
+<templateSet group="Laravel Blade">
+  <template name="@inc" value="@include('$FILE$')" description="@include" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

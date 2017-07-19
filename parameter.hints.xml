@@ -16,6 +16,7 @@
         <added pattern="\DateTime.format(format)" />
         <added pattern="\Illuminate\Routing\Route.middleware(middleware)" />
         <added pattern="\Illuminate\Support\Facades\Route.get(uri,action)" />
+        <added pattern="\Illuminate\Routing\Route.uses(action)" />
       </blacklist>
     </blacklists>
   </component>
