@@ -17,6 +17,7 @@
         <added pattern="\Illuminate\Routing\Route.middleware(middleware)" />
         <added pattern="\Illuminate\Support\Facades\Route.get(uri,action)" />
         <added pattern="\Illuminate\Routing\Route.uses(action)" />
+        <added pattern="\Illuminate\Database\Eloquent\Builder.where(column,operator,value,boolean)" />
       </blacklist>
     </blacklists>
   </component>
