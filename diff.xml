@@ -25,7 +25,7 @@
     <option name="PLACES_MAP">
       <entry key="Default">
         <PlaceSettings>
-          <option name="HIGHLIGHT_POLICY" value="DO_NOT_HIGHLIGHT" />
+          <option name="HIGHLIGHT_POLICY" value="BY_WORD_SPLIT" />
         </PlaceSettings>
       </entry>
       <entry key="Merge">
