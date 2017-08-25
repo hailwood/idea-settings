@@ -39,4 +39,12 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="2dp" value="sprintf('%0.2f', $END$)" description="sprintf 2 decimal places" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
 </templateSet>

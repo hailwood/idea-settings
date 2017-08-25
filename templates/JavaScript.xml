@@ -12,4 +12,9 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="c.l" value="console.log($END$);" description="console.log(...)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
