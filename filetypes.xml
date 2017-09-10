@@ -5,7 +5,6 @@
       <mapping pattern="Dockerfile.development" type="Dockerfile" />
       <mapping ext="docker" type="Dockerfile" />
       <mapping ext="vhtml" type="HTML" />
-      <removed_mapping ext="html" type="HTML" />
       <mapping pattern=".graphqlrc" type="JSON" />
       <mapping pattern="*.php.development" type="PHP" />
       <mapping pattern="not_real" type="PLAIN_TEXT" />
