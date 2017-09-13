@@ -1,7 +1,7 @@
 <scheme name="EddyAtom customn" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0833334" />
   <metaInfo>
-    <property name="modified">2017-09-07T12:00:38</property>
+    <property name="modified">2017-09-14T09:45:49</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
   <option name="EDITOR_FONT_SIZE" value="16" />
@@ -32,7 +32,7 @@
     <option name="SELECTION_BACKGROUND" value="3f4451" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="TEARLINE_COLOR" value="4a5961" />
-    <option name="WHITESPACES" value="616161" />
+    <option name="WHITESPACES" value="3f3f3f" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="" />
   </colors>
   <attributes>
