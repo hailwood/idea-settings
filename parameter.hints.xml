@@ -19,6 +19,7 @@
         <added pattern="\Illuminate\Routing\Route.uses(action)" />
         <added pattern="\Illuminate\Database\Eloquent\Builder.where(column,operator,value,boolean)" />
         <added pattern="\DataObject.dbObject(fieldName)" />
+        <added pattern="\Carbon\Carbon.parse(time,tz)" />
       </blacklist>
     </blacklists>
   </component>
