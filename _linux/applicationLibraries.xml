@@ -11,5 +11,43 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="html5shiv" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_oss.maxcdn.com_libs_html5shiv_3.7.0_html5shiv.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_oss.maxcdn.com_libs_html5shiv_3.7.0_html5shiv.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="modernizr" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="Modernizr" />
+        <option name="frameworkVersion" value="2.8.3" />
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_modernizr_2.8.3_modernizr.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_modernizr_2.8.3_modernizr.js" />
+      </CLASSES>
+      <DOCUMENTATION>
+        <root url="http://www.modernizr.com/docs" />
+      </DOCUMENTATION>
+      <SOURCES />
+    </library>
+    <library name="respond" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_oss.maxcdn.com_libs_respond.js_1.3.0_respond.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_oss.maxcdn.com_libs_respond.js_1.3.0_respond.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
   </component>
 </application>
