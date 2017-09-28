@@ -20,6 +20,7 @@
   </template>
   <template name="/#" value="/************************************************************************&#10; * $END$&#10; ************************************************************************/" description="Section Comment" toReformat="false" toShortenFQNames="true">
     <context>
+      <option name="JAVA_SCRIPT" value="true" />
       <option name="PHP" value="true" />
     </context>
   </template>
