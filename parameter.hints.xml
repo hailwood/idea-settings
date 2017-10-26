@@ -12,6 +12,7 @@
         <added pattern="\Illuminate\Support\Facades\Route.delete(uri,action)" />
         <added pattern="\sprintf(format,args,_)" />
         <added pattern="\Symfony\Component\HttpFoundation\BinaryFileResponse.deleteFileAfterSend(shouldDelete)" />
+        <added pattern="\env(key,default)" />
       </blacklist>
     </blacklists>
   </component>
