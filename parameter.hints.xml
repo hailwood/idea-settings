@@ -10,6 +10,8 @@
         <added pattern="\Illuminate\Support\Facades\Route.post(uri,action)" />
         <added pattern="\Illuminate\Support\Facades\Route.put(uri,action)" />
         <added pattern="\Illuminate\Support\Facades\Route.delete(uri,action)" />
+        <added pattern="\sprintf(format,args,_)" />
+        <added pattern="\Symfony\Component\HttpFoundation\BinaryFileResponse.deleteFileAfterSend(shouldDelete)" />
       </blacklist>
     </blacklists>
   </component>
