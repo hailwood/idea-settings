@@ -1,0 +1,10 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="PHP">
+        <added pattern="\array_diff(array1,array2,_)" />
+        <added pattern="\compact(varname,_)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
