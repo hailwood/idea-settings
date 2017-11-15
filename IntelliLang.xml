@@ -1,5 +1,9 @@
 <application>
   <component name="LanguageInjectionConfiguration">
+    <injection language="TEXT" injector-id="xml">
+      <display-name>a/@title</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("title")).withParent(xmlTag().withLocalName(string().equalTo("a")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
     <injection language="HTML" injector-id="xml">
       <display-name>i/@data-title</display-name>
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("data-title")).withParent(xmlTag().withLocalName(string().equalTo("i")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
