@@ -15,6 +15,7 @@
         <added pattern="\env(key,default)" />
         <added pattern="\Silber\Bouncer\BouncerFacade.allow(authority)" />
         <added pattern="\App\Http\Resources\ResourceResponse.formatDateIfLoaded(dateColumn)" />
+        <added pattern="\Eloquent.whereNotIn(column,values,boolean)" />
       </blacklist>
     </blacklists>
   </component>
