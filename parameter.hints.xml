@@ -14,6 +14,7 @@
         <added pattern="\Symfony\Component\HttpFoundation\BinaryFileResponse.deleteFileAfterSend(shouldDelete)" />
         <added pattern="\env(key,default)" />
         <added pattern="\Silber\Bouncer\BouncerFacade.allow(authority)" />
+        <added pattern="\App\Http\Resources\ResourceResponse.formatDateIfLoaded(dateColumn)" />
       </blacklist>
     </blacklists>
   </component>
