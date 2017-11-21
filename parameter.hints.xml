@@ -17,6 +17,7 @@
         <added pattern="\App\Http\Resources\ResourceResponse.formatDateIfLoaded(dateColumn)" />
         <added pattern="\Eloquent.whereNotIn(column,values,boolean)" />
         <added pattern="\Illuminate\Http\Resources\ConditionallyLoadsAttributes.whenLoaded(relationship,value,default)" />
+        <added pattern="\Illuminate\Console\Command.info(string,verbosity)" />
       </blacklist>
     </blacklists>
   </component>
