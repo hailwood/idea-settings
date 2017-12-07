@@ -18,6 +18,7 @@
         <added pattern="\Eloquent.whereNotIn(column,values,boolean)" />
         <added pattern="\Illuminate\Http\Resources\ConditionallyLoadsAttributes.whenLoaded(relationship,value,default)" />
         <added pattern="\Illuminate\Console\Command.info(string,verbosity)" />
+        <added pattern="\route(name,parameters,absolute)" />
       </blacklist>
     </blacklists>
   </component>
