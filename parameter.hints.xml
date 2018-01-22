@@ -19,6 +19,8 @@
         <added pattern="\Illuminate\Http\Resources\ConditionallyLoadsAttributes.whenLoaded(relationship,value,default)" />
         <added pattern="\Illuminate\Console\Command.info(string,verbosity)" />
         <added pattern="\route(name,parameters,absolute)" />
+        <added pattern="\App\Models\User.isAn(roles)" />
+        <added pattern="\App\Models\User.isA(roles)" />
       </blacklist>
     </blacklists>
   </component>
