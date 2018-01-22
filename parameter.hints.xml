@@ -13,6 +13,12 @@
         <added pattern="\sprintf(format,args,_)" />
         <added pattern="\Symfony\Component\HttpFoundation\BinaryFileResponse.deleteFileAfterSend(shouldDelete)" />
         <added pattern="\env(key,default)" />
+        <added pattern="\Silber\Bouncer\BouncerFacade.allow(authority)" />
+        <added pattern="\App\Http\Resources\ResourceResponse.formatDateIfLoaded(dateColumn)" />
+        <added pattern="\Eloquent.whereNotIn(column,values,boolean)" />
+        <added pattern="\Illuminate\Http\Resources\ConditionallyLoadsAttributes.whenLoaded(relationship,value,default)" />
+        <added pattern="\Illuminate\Console\Command.info(string,verbosity)" />
+        <added pattern="\route(name,parameters,absolute)" />
       </blacklist>
     </blacklists>
   </component>
