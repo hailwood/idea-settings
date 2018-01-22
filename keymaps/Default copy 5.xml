@@ -13,6 +13,10 @@
   <action id="Macro.isset">
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
+  <action id="PlaybackLastMacro">
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
+  </action>
+  <action id="QuickChangeScheme" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
