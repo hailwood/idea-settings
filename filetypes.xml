@@ -2,7 +2,6 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".env.development" type=".env file" />
-      <mapping pattern="aliases" type="Bash" />
       <mapping pattern="Dockerfile.development" type="Dockerfile" />
       <mapping ext="docker" type="Dockerfile" />
       <mapping ext="vhtml" type="HTML" />
@@ -14,6 +13,7 @@
       <mapping ext="thing" type="PLAIN_TEXT" />
       <mapping pattern="*.yml.development" type="YAML" />
       <mapping pattern=".htaccess.development" type="htaccess" />
+      <mapping pattern="aliases" type="Bash" />
     </extensionMap>
   </component>
 </application>
