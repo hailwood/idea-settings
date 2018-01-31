@@ -1,0 +1,9 @@
+<templateSet group="PHP Other">
+  <template name="()" value="public function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="public function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+</templateSet>
