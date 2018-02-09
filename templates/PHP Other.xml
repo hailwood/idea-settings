@@ -7,4 +7,9 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
+  <template name="rel" value="public function relations(): array&#10;{&#10;    return [$END$];&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
