@@ -21,6 +21,8 @@
         <added pattern="\route(name,parameters,absolute)" />
         <added pattern="\Tests\TestCase.getQuery(className,method)" />
         <added pattern="\Tests\TestCase.getGraphQLQuery(className,method)" />
+        <added pattern="\Folklore\GraphQL\Support\Facades\GraphQL.type(name,fresh)" />
+        <added pattern="\Illuminate\Database\Query\Builder.join(table,first,operator,second,type,where)" />
       </blacklist>
     </blacklists>
   </component>
