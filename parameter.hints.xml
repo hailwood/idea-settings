@@ -24,6 +24,9 @@
         <added pattern="\Folklore\GraphQL\Support\Facades\GraphQL.type(name,fresh)" />
         <added pattern="\Illuminate\Database\Query\Builder.join(table,first,operator,second,type,where)" />
       </blacklist>
+      <blacklist language="TypeScript">
+        <added pattern="GraphQLServer.start(options,callback)" />
+      </blacklist>
     </blacklists>
   </component>
 </application>
