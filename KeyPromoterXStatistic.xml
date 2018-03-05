@@ -30,7 +30,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>136</Count>
+          <Count>137</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -78,6 +78,14 @@
           <IdeaActionID>GotoPrevElementUnderCaretUsage</IdeaActionID>
           <ShortCut>'Alt+Wheel up'</ShortCut>
           <Description>Go to previous highlighted element usage</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Jump to Navigation Bar">
+        <Item>
+          <IdeaActionID>ShowNavBar</IdeaActionID>
+          <ShortCut>'Alt+Home'</ShortCut>
+          <Description>Jump to Navigation Bar</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -193,14 +201,6 @@
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Terminal">
-        <Item>
-          <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
-          <ShortCut>'Alt+F12'</ShortCut>
-          <Description>Terminal</Description>
-          <Count>45</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
         <Item>
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
@@ -223,6 +223,14 @@
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Rerun</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Terminal">
+        <Item>
+          <IdeaActionID>ActivateTerminalToolWindow</IdeaActionID>
+          <ShortCut>'Alt+F12'</ShortCut>
+          <Description>Terminal</Description>
+          <Count>47</Count>
         </Item>
       </Statistic>
     </option>
