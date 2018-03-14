@@ -1,6 +1,9 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
+      <blacklist language="TypeScript">
+        <added pattern="GraphQLServer.start(options,callback)" />
+      </blacklist>
       <blacklist language="PHP">
         <added pattern="\array_diff(array1,array2,_)" />
         <added pattern="\compact(varname,_)" />
@@ -23,9 +26,7 @@
         <added pattern="\Tests\TestCase.getGraphQLQuery(className,method)" />
         <added pattern="\Folklore\GraphQL\Support\Facades\GraphQL.type(name,fresh)" />
         <added pattern="\Illuminate\Database\Query\Builder.join(table,first,operator,second,type,where)" />
-      </blacklist>
-      <blacklist language="TypeScript">
-        <added pattern="GraphQLServer.start(options,callback)" />
+        <added pattern="\roleByName(name)" />
       </blacklist>
     </blacklists>
   </component>
