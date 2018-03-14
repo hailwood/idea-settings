@@ -49,6 +49,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Database Tools...">
+        <Item>
+          <IdeaActionID>DatabaseView.ToolsPopup</IdeaActionID>
+          <ShortCut>'Alt+Enter'</ShortCut>
+          <Description>Database Tools...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Declaration">
         <Item>
           <IdeaActionID>GotoDeclaration</IdeaActionID>
@@ -198,7 +206,7 @@
           <IdeaActionID>Console.TableResult.Reload</IdeaActionID>
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Reload Page</Description>
-          <Count>2</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Replace in Path...">
