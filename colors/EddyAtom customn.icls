@@ -1,10 +1,10 @@
 <scheme name="EddyAtom customn" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.0833334" />
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="modified">2017-09-14T09:45:49</property>
+    <property name="modified">2018-03-12T13:11:36</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
-  <option name="EDITOR_FONT_SIZE" value="16" />
+  <option name="EDITOR_FONT_SIZE" value="15" />
   <option name="EDITOR_FONT_NAME" value="Fira Code Retina" />
   <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Fira Code Medium" />
@@ -958,6 +958,7 @@
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3f4451" />
+        <option name="EFFECT_COLOR" value="e40002" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
