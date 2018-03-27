@@ -27,6 +27,7 @@
         <added pattern="\Folklore\GraphQL\Support\Facades\GraphQL.type(name,fresh)" />
         <added pattern="\Illuminate\Database\Query\Builder.join(table,first,operator,second,type,where)" />
         <added pattern="\roleByName(name)" />
+        <added pattern="\array_replace_key_recursive(arr,findKey,replacedKey)" />
       </blacklist>
     </blacklists>
   </component>
