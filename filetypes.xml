@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".env.development" type=".env file" />
+      <mapping pattern="fetch-local-composer" type="Bash" />
       <mapping pattern="aliases" type="Bash" />
       <mapping pattern="Dockerfile.development" type="Dockerfile" />
       <mapping ext="docker" type="Dockerfile" />
