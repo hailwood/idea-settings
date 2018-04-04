@@ -102,7 +102,7 @@
           <IdeaActionID>Console.Jdbc.Execute</IdeaActionID>
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Execute</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Execute GraphQL">
@@ -134,7 +134,7 @@
           <IdeaActionID>FindInPath</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F'</ShortCut>
           <Description>Find in Path...</Description>
-          <Count>69</Count>
+          <Count>72</Count>
         </Item>
       </Statistic>
       <Statistic Action="Go to previous highlighted element usage">
@@ -246,6 +246,14 @@
           <IdeaActionID>Jdbc.RunSqlScript</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Run 'MariaDB - ….21.0.2 [1]'...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'freeparkin…ug-2016.sql'... ">
+        <Item>
+          <IdeaActionID>Jdbc.RunSqlScript</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'freeparkin…ug-2016.sql'...</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
