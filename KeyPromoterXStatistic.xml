@@ -97,6 +97,14 @@
           <Count>5</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Execute">
+        <Item>
+          <IdeaActionID>Console.Jdbc.Execute</IdeaActionID>
+          <ShortCut>'Ctrl+Enter'</ShortCut>
+          <Description>Execute</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Execute GraphQL">
         <Item>
           <IdeaActionID>com.intellij.lang.jsgraphql.ide.actions.JSGraphQLExecuteEditorAction</IdeaActionID>
@@ -206,7 +214,7 @@
           <IdeaActionID>Console.TableResult.Reload</IdeaActionID>
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Reload Page</Description>
-          <Count>9</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="Replace in Path...">
@@ -231,6 +239,14 @@
           <ShortCut>'F9'</ShortCut>
           <Description>Resume Program</Description>
           <Count>38</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'MariaDB - ….21.0.2 [1]'... ">
+        <Item>
+          <IdeaActionID>Jdbc.RunSqlScript</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'MariaDB - ….21.0.2 [1]'...</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'scratch.es6'">
