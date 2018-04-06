@@ -281,6 +281,22 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'webfox 22 …eb 2018.sql'... ">
+        <Item>
+          <IdeaActionID>Jdbc.RunSqlScript</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'webfox 22 …eb 2018.sql'...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'webfox.sql'... ">
+        <Item>
+          <IdeaActionID>Jdbc.RunSqlScript</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F10'</ShortCut>
+          <Description>Run 'webfox.sql'...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Set NULL">
         <Item>
           <IdeaActionID>Console.TableResult.SetNull</IdeaActionID>
