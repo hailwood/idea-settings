@@ -401,6 +401,14 @@
           <Count>18</Count>
         </Item>
       </Statistic>
+      <Statistic Action="viva Denis!">
+        <Item>
+          <IdeaActionID>GotoDeclaration</IdeaActionID>
+          <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
+          <Description>viva Denis!</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
     </option>
     <option name="suppressed">
       <Statistic Action="Directory">
