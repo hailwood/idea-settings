@@ -25,6 +25,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Compare With...">
+        <Item>
+          <IdeaActionID>CompareTwoFiles</IdeaActionID>
+          <ShortCut>'Ctrl+D'</ShortCut>
+          <Description>Compare With...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Context Info">
         <Item>
           <IdeaActionID>EditorContextInfo</IdeaActionID>
@@ -246,7 +254,7 @@
           <IdeaActionID>DatabaseView.PropertiesAction</IdeaActionID>
           <ShortCut>'Shift+Enter'</ShortCut>
           <Description>Properties</Description>
-          <Count>6</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="Reformat with Prettier">
