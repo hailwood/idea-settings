@@ -174,7 +174,7 @@
           <IdeaActionID>FindInPath</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F'</ShortCut>
           <Description>Find in Path...</Description>
-          <Count>97</Count>
+          <Count>98</Count>
         </Item>
       </Statistic>
       <Statistic Action="Go to previous highlighted element usage">
@@ -478,7 +478,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>viva Denis!</Description>
-          <Count>71</Count>
+          <Count>72</Count>
         </Item>
       </Statistic>
     </option>
