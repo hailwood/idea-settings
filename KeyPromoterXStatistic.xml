@@ -174,7 +174,7 @@
           <IdeaActionID>FindInPath</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F'</ShortCut>
           <Description>Find in Path...</Description>
-          <Count>98</Count>
+          <Count>99</Count>
         </Item>
       </Statistic>
       <Statistic Action="Go to previous highlighted element usage">
@@ -310,7 +310,7 @@
           <IdeaActionID>ReplaceInPath</IdeaActionID>
           <ShortCut>'Ctrl+Shift+R'</ShortCut>
           <Description>Replace in Path...</Description>
-          <Count>27</Count>
+          <Count>29</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'scratch.es6'">
@@ -406,7 +406,7 @@
           <IdeaActionID>ShowSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
-          <Count>63</Count>
+          <Count>72</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Diagram Popup...">
@@ -478,7 +478,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>viva Denis!</Description>
-          <Count>72</Count>
+          <Count>73</Count>
         </Item>
       </Statistic>
     </option>
