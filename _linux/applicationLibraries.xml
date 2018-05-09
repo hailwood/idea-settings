@@ -6,5 +6,16 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="middleware" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.jsdelivr.net_npm_graphql-playground-react_build_static_js_middleware.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdn.jsdelivr.net_npm_graphql-playground-react_build_static_js_middleware.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
   </component>
 </application>
