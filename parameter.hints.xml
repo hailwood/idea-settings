@@ -27,6 +27,11 @@
         <added pattern="\Folklore\GraphQL\Support\Facades\GraphQL.type(name,fresh)" />
         <added pattern="\Illuminate\Database\Query\Builder.join(table,first,operator,second,type,where)" />
         <added pattern="\roleByName(name)" />
+        <added pattern="\array_replace_key_recursive(arr,findKey,replacedKey)" />
+        <added pattern="\roleByName(names)" />
+        <added pattern="\League\Glide\Server.setCacheWithFileExtensions(cacheWithFileExtensions)" />
+        <added pattern="\Illuminate\Support\Fluent.comment(comment)" />
+        <added pattern="\Illuminate\Support\Fluent.default(value)" />
       </blacklist>
     </blacklists>
   </component>
