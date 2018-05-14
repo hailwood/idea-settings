@@ -9,6 +9,22 @@
           <Count>11</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Add to favorites">
+        <Item>
+          <IdeaActionID>FavoriteFolder.AddFavorite</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F'</ShortCut>
+          <Description>Add to favorites</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Apps">
+        <Item>
+          <IdeaActionID>FavoriteFolder.Favorite_2</IdeaActionID>
+          <ShortCut>'Ctrl+5'</ShortCut>
+          <Description>Apps</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Clone Row">
         <Item>
           <IdeaActionID>Console.TableResult.CloneRow</IdeaActionID>
@@ -38,7 +54,7 @@
           <IdeaActionID>CompareTwoFiles</IdeaActionID>
           <ShortCut>'Ctrl+D'</ShortCut>
           <Description>Compare With...</Description>
-          <Count>1</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Context Info">
@@ -110,7 +126,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>307</Count>
+          <Count>309</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -182,7 +198,7 @@
           <IdeaActionID>FindInPath</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F'</ShortCut>
           <Description>Find in Path...</Description>
-          <Count>119</Count>
+          <Count>122</Count>
         </Item>
       </Statistic>
       <Statistic Action="Go to previous highlighted element usage">
@@ -270,7 +286,15 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'Alt+1'</ShortCut>
           <Description>Project</Description>
-          <Count>13</Count>
+          <Count>14</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Projects">
+        <Item>
+          <IdeaActionID>FavoriteFolder.Favorite_1</IdeaActionID>
+          <ShortCut>'Ctrl+4'</ShortCut>
+          <Description>Projects</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Properties">
