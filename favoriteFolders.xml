@@ -1,5 +1,6 @@
 <application>
   <component name="FavoriteFolders">
     <folder url="file://$USER_HOME$/Projects" icon="ModuleGroup" name="Projects" />
+    <folder url="file://$USER_HOME$/Projects/Webfox/Apps" icon="AnonymousClass" name="Apps" />
   </component>
 </application>
