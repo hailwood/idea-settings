@@ -4,7 +4,6 @@
       <list>
         <Profile>
           <option name="defaultProfile" value="true" />
-          <option name="enableAnsiColoring" value="true" />
           <option name="grepExpressionGroups">
             <list>
               <GrepExpressionGroup>
@@ -12,7 +11,6 @@
                   <list>
                     <GrepExpressionItem>
                       <option name="grepExpression" value=".*FATAL.*" />
-                      <option name="id" value="bd3b6a27-589b-4fe5-8826-6936ce5bba95" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -27,13 +25,11 @@
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
-                          <option name="id" value="85944bf6-6c0d-4ea8-8b9f-573e6fb375d0" />
                         </GrepStyle>
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="grepExpression" value=".*ERROR.*" />
-                      <option name="id" value="e78f9433-abb8-4757-98a3-eeaf267a14b7" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -47,13 +43,11 @@
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
-                          <option name="id" value="695ba3cf-369c-41a4-993f-be56e782207a" />
                         </GrepStyle>
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="grepExpression" value=".*WARN.*" />
-                      <option name="id" value="be4da883-5e1c-41b7-8e15-ec736964485b" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -67,13 +61,11 @@
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
-                          <option name="id" value="d7f45a58-a05f-413a-b7cd-b880bf9190a6" />
                         </GrepStyle>
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="grepExpression" value=".*DEBUG.*" />
-                      <option name="id" value="57b8d119-fcdf-43e7-bfca-7604769a286a" />
                       <option name="style">
                         <GrepStyle>
                           <option name="foregroundColor">
@@ -82,13 +74,11 @@
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
-                          <option name="id" value="5d58901f-b8a9-452d-b998-d0e8b9675ebd" />
                         </GrepStyle>
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="grepExpression" value=".*TRACE.*" />
-                      <option name="id" value="912a32fc-bbdb-4069-bd89-531dc5568626" />
                       <option name="style">
                         <GrepStyle>
                           <option name="foregroundColor">
@@ -96,7 +86,6 @@
                               <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
-                          <option name="id" value="ae6c3c60-5a76-470c-a9cd-cffe2d92ceeb" />
                         </GrepStyle>
                       </option>
                     </GrepExpressionItem>
@@ -106,10 +95,11 @@
               </GrepExpressionGroup>
             </list>
           </option>
-          <option name="hideAnsiCommands" value="true" />
           <option name="id" value="1466857218401" />
+          <option name="name" value="default" />
         </Profile>
       </list>
     </option>
+    <option name="version" value="1" />
   </component>
 </application>
