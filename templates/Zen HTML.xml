@@ -3,6 +3,7 @@
     <variable name="VAR0" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
     <variable name="disabled" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="disabled" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="required" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JSP" value="true" />
     </context>
