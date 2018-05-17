@@ -1,8 +1,12 @@
 <application>
   <component name="MessDetector">
+    <phpmd_settings_migrated />
     <phpmd_settings>
       <MessDetectorConfiguration tool_path="$USER_HOME$/.config/composer/vendor/bin/phpmd" />
     </phpmd_settings>
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings_migrated />
   </component>
   <component name="PhpInterpreters">
     <interpreters>
