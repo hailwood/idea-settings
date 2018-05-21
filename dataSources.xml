@@ -1,10 +1,10 @@
 <application>
   <component name="dataSourceStorage" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="postgres@laravel" uuid="828cd12c-a6aa-41ff-8eb4-3458f0d554bf">
+    <data-source source="LOCAL" name="laravel@postgres" uuid="828cd12c-a6aa-41ff-8eb4-3458f0d554bf">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5433/laravel</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/laravel</jdbc-url>
     </data-source>
   </component>
 </application>
