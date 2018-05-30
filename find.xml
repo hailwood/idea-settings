@@ -14,5 +14,6 @@
     <mask>*.mxml</mask>
     <mask>*.vue</mask>
     <mask>*.php</mask>
+    <mask>*.graphql</mask>
   </component>
 </application>
