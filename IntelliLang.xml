@@ -8,5 +8,9 @@
       <display-name>i/@data-title</display-name>
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("data-title")).withParent(xmlTag().withLocalName(string().equalTo("i")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
     </injection>
+    <injection language="HTML" injector-id="xml">
+      <display-name>span/@class</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("class")).withParent(xmlTag().withLocalName(string().equalTo("span")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
   </component>
 </application>
