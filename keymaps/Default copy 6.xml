@@ -11,7 +11,13 @@
   <action id="Bitbucket.CreatePullRequest" />
   <action id="Bitbucket.CreateSnippet" />
   <action id="Bitbucket.OpenFileInBitbucket" />
+  <action id="CopyElement" />
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
   <action id="RunDashboard.ShowConfigurations" />
+  <action id="Synchronize">
+    <keyboard-shortcut first-keystroke="ctrl alt y" />
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="UML.ApplyCurrentLayout" />
 </keymap>
