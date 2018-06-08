@@ -4,7 +4,7 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5433/laravel</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/laravel</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="laravel@mysql" uuid="e0cf47fb-1c59-4466-a4ad-26b2fdf96b3b">
       <driver-ref>mysql</driver-ref>
