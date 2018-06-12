@@ -1,7 +1,7 @@
 <scheme name="EddyAtom customn" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="modified">2018-06-01T14:42:05</property>
+    <property name="modified">2018-06-13T10:15:14</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
   <font>
@@ -55,6 +55,11 @@
     <option name="BAD_CHARACTER">
       <value>
         <option name="FOREGROUND" value="ff5354" />
+      </value>
+    </option>
+    <option name="BASH.HERE_DOC">
+      <value>
+        <option name="EFFECT_COLOR" value="d2e43e" />
       </value>
     </option>
     <option name="BASH.INTERNAL_COMMAND">
