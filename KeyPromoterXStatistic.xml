@@ -150,7 +150,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>562</Count>
+          <Count>564</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -295,6 +295,14 @@
           <ShortCut>'Ctrl+Alt+Shift+Insert'</ShortCut>
           <Description>New Scratch File</Description>
           <Count>24</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="New...">
+        <Item>
+          <IdeaActionID>NewElement</IdeaActionID>
+          <ShortCut>'Alt+Insert'</ShortCut>
+          <Description>New...</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Open in Bitbucket">
@@ -558,7 +566,7 @@
           <IdeaActionID>Console.TableResult.Submit</IdeaActionID>
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Submit</Description>
-          <Count>72</Count>
+          <Count>73</Count>
         </Item>
       </Statistic>
       <Statistic Action="Surround With...">
