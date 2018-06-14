@@ -6,7 +6,7 @@
           <IdeaActionID>Console.TableResult.AddRow</IdeaActionID>
           <ShortCut>'Alt+Insert'</ShortCut>
           <Description>Add New Row</Description>
-          <Count>15</Count>
+          <Count>18</Count>
         </Item>
       </Statistic>
       <Statistic Action="Add to favorites">
@@ -150,7 +150,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>564</Count>
+          <Count>572</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -374,7 +374,7 @@
           <IdeaActionID>Console.TableResult.Reload</IdeaActionID>
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Reload Page</Description>
-          <Count>32</Count>
+          <Count>41</Count>
         </Item>
       </Statistic>
       <Statistic Action="Remove">
@@ -505,6 +505,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Set DEFAULT">
+        <Item>
+          <IdeaActionID>Console.TableResult.SetDefault</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+D'</ShortCut>
+          <Description>Set DEFAULT</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Set NULL">
         <Item>
           <IdeaActionID>Console.TableResult.SetNull</IdeaActionID>
@@ -566,7 +574,7 @@
           <IdeaActionID>Console.TableResult.Submit</IdeaActionID>
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Submit</Description>
-          <Count>73</Count>
+          <Count>75</Count>
         </Item>
       </Statistic>
       <Statistic Action="Surround With...">
