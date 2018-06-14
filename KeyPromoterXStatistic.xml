@@ -150,7 +150,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>575</Count>
+          <Count>576</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -302,7 +302,7 @@
           <IdeaActionID>NewElement</IdeaActionID>
           <ShortCut>'Alt+Insert'</ShortCut>
           <Description>New...</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Open in Bitbucket">
