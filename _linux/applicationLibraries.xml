@@ -5,11 +5,6 @@
       <SOURCES />
     </library>
     <library name="smoothscroll" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_smoothscroll-polyfill_dist_smoothscroll.js" />
-        </sourceFilesUrls>
-      </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_smoothscroll-polyfill_dist_smoothscroll.js" />
       </CLASSES>
