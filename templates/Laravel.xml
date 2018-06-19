@@ -1,0 +1,21 @@
+<templateSet group="Laravel">
+  <template name="fill" value="protected $fillable = [&#10;  '$END$'&#10;];" description="Laravel $fillable property" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="casts" value="protected $casts = [&#10;  'id' =&gt; 'int',&#10;  '$KEY$' =&gt; '$TYPE$'$END$&#10;];" description="Laravel $casts property" toReformat="true" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name=":1" value="public function $FUNCTION$(): HasOne {&#10;  return $this-&gt;hasOne($CLASS$::class);&#10;}" description="Laravel hasOne" toReformat="true" toShortenFQNames="true">
+    <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS" expression="camelCase($FUNCTION$)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+</templateSet>
