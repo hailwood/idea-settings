@@ -14,7 +14,7 @@
           <IdeaActionID>Arrangement.Alias.Rule.Add</IdeaActionID>
           <ShortCut>'Alt+Insert'</ShortCut>
           <Description>Add rule</Description>
-          <Count>1</Count>
+          <Count>12</Count>
         </Item>
       </Statistic>
       <Statistic Action="Add to favorites">
@@ -297,6 +297,14 @@
           <Count>21</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Move up">
+        <Item>
+          <IdeaActionID>Arrangement.Rule.Match.Condition.Move.Up</IdeaActionID>
+          <ShortCut>'Alt+Up'</ShortCut>
+          <Description>Move up</Description>
+          <Count>6</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Move...">
         <Item>
           <IdeaActionID>Move</IdeaActionID>
@@ -550,7 +558,7 @@
           <IdeaActionID>ShowSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
-          <Count>141</Count>
+          <Count>144</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Diagram Popup...">
