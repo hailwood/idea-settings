@@ -318,7 +318,7 @@
           <IdeaActionID>ModifyObject</IdeaActionID>
           <ShortCut>'Ctrl+F6'</ShortCut>
           <Description>Modify Table...</Description>
-          <Count>28</Count>
+          <Count>32</Count>
         </Item>
       </Statistic>
       <Statistic Action="Move up">
@@ -646,7 +646,7 @@
           <IdeaActionID>Console.TableResult.Submit</IdeaActionID>
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Submit</Description>
-          <Count>95</Count>
+          <Count>96</Count>
         </Item>
       </Statistic>
       <Statistic Action="Surround With...">
