@@ -57,6 +57,14 @@
           <Count>4</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Compare Directories">
+        <Item>
+          <IdeaActionID>CompareTwoFiles</IdeaActionID>
+          <ShortCut>'Ctrl+D'</ShortCut>
+          <Description>Compare Directories</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Compare Files">
         <Item>
           <IdeaActionID>CompareTwoFiles</IdeaActionID>
@@ -422,7 +430,7 @@
           <IdeaActionID>Console.TableResult.Reload</IdeaActionID>
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Reload Page</Description>
-          <Count>109</Count>
+          <Count>110</Count>
         </Item>
       </Statistic>
       <Statistic Action="Remove">
