@@ -94,7 +94,7 @@
           <IdeaActionID>$Copy</IdeaActionID>
           <ShortCut>'Ctrl+C' or 'Ctrl+Insert'</ShortCut>
           <Description>Copy</Description>
-          <Count>25</Count>
+          <Count>26</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy Path">
@@ -350,7 +350,7 @@
           <IdeaActionID>NewScratchFile</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+Insert'</ShortCut>
           <Description>New Scratch File</Description>
-          <Count>29</Count>
+          <Count>30</Count>
         </Item>
       </Statistic>
       <Statistic Action="New...">
