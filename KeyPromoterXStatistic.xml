@@ -166,7 +166,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>762</Count>
+          <Count>763</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -262,7 +262,7 @@
           <IdeaActionID>FindInPath</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F'</ShortCut>
           <Description>Find in Path...</Description>
-          <Count>262</Count>
+          <Count>268</Count>
         </Item>
       </Statistic>
       <Statistic Action="Go to previous highlighted element usage">
