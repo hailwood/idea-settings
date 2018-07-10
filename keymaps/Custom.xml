@@ -6,6 +6,7 @@
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
+  <action id="ChangesView.UnshelveSilently" />
   <action id="Console.TableResult.SetNull">
     <keyboard-shortcut first-keystroke="shift delete" />
   </action>
@@ -17,9 +18,13 @@
   <action id="EditorCut">
     <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
+  </action>
   <action id="Refresh">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="ShowUmlDiagramPopup" />
   <action id="Synchronize">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
