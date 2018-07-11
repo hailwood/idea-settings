@@ -430,7 +430,7 @@
           <IdeaActionID>Console.TableResult.Reload</IdeaActionID>
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Reload Page</Description>
-          <Count>113</Count>
+          <Count>116</Count>
         </Item>
       </Statistic>
       <Statistic Action="Remove">
