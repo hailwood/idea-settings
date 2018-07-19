@@ -166,7 +166,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>793</Count>
+          <Count>794</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -238,7 +238,7 @@
           <IdeaActionID>com.intellij.lang.jsgraphql.ide.actions.JSGraphQLExecuteEditorAction</IdeaActionID>
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Execute GraphQL</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Find">
