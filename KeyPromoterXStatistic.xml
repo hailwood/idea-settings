@@ -25,6 +25,14 @@
           <Count>5</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Modify Table...">
+        <Item>
+          <IdeaActionID>ModifyObject</IdeaActionID>
+          <ShortCut>'Ctrl+F6'</ShortCut>
+          <Description>Modify Table...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Quick Documentation">
         <Item>
           <IdeaActionID>QuickJavaDoc</IdeaActionID>
