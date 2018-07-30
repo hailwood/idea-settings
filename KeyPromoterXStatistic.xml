@@ -1,6 +1,14 @@
 <application>
   <component name="KeyPromoterXStatistic">
     <option name="statistics">
+      <Statistic Action="Copy Bitbucket link">
+        <Item>
+          <IdeaActionID>Bitbucket.CopyFileUrlInBitbucket</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+X, C'</ShortCut>
+          <Description>Copy Bitbucket link</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Declaration">
         <Item>
           <IdeaActionID>GotoDeclaration</IdeaActionID>
@@ -22,7 +30,7 @@
           <IdeaActionID>FindInPath</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F'</ShortCut>
           <Description>Find in Path...</Description>
-          <Count>27</Count>
+          <Count>28</Count>
         </Item>
       </Statistic>
       <Statistic Action="Modify Table...">
