@@ -81,6 +81,14 @@
           <Count>11</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rename...">
+        <Item>
+          <IdeaActionID>RenameElement</IdeaActionID>
+          <ShortCut>'Shift+F6'</ShortCut>
+          <Description>Rename...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Replace in Path...">
         <Item>
           <IdeaActionID>ReplaceInPath</IdeaActionID>
@@ -97,6 +105,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Set NULL">
+        <Item>
+          <IdeaActionID>Console.TableResult.SetNull</IdeaActionID>
+          <ShortCut>'Shift+Delete'</ShortCut>
+          <Description>Set NULL</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Settings...">
         <Item>
           <IdeaActionID>ShowSettings</IdeaActionID>
@@ -110,7 +126,7 @@
           <IdeaActionID>Console.TableResult.Submit</IdeaActionID>
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Submit</Description>
-          <Count>14</Count>
+          <Count>15</Count>
         </Item>
       </Statistic>
       <Statistic Action="Synchronize">
