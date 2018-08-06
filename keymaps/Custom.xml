@@ -1,0 +1,35 @@
+<keymap version="1" name="Custom" parent="Default for XWin">
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ChangesView.UnshelveSilently" />
+  <action id="Console.TableResult.SetNull">
+    <keyboard-shortcut first-keystroke="shift delete" />
+  </action>
+  <action id="CopyElement" />
+  <action id="DatabaseView.CopyTable" />
+  <action id="DatabaseView.Tools.TruncateTableAction">
+    <keyboard-shortcut first-keystroke="shift delete" />
+  </action>
+  <action id="EditorCut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
+  </action>
+  <action id="Refresh">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="ShowUmlDiagramPopup" />
+  <action id="Synchronize">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+  <action id="UML.ApplyCurrentLayout" />
+  <action id="com.intellij.lang.jsgraphql.ide.actions.JSGraphQLRestartLanguageServiceAction">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+</keymap>

@@ -12,8 +12,8 @@
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.vue</mask>
-    <mask>*.php</mask>
     <mask>*.css</mask>
     <mask>*.graphql</mask>
+    <mask>*.php</mask>
   </component>
 </application>

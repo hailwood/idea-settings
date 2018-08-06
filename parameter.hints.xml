@@ -32,6 +32,9 @@
         <added pattern="\League\Glide\Server.setCacheWithFileExtensions(cacheWithFileExtensions)" />
         <added pattern="\Illuminate\Support\Fluent.comment(comment)" />
         <added pattern="\Illuminate\Support\Fluent.default(value)" />
+        <added pattern="\App\Annotation.isCalculationStyle(style)" />
+        <added pattern="\Illuminate\Database\Eloquent\Builder.where(column,operator,value,boolean)" />
+        <added pattern="\Illuminate\Database\Query\Builder.limit(value)" />
       </blacklist>
     </blacklists>
   </component>
