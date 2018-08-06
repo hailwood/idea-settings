@@ -35,6 +35,7 @@
         <added pattern="\App\Annotation.isCalculationStyle(style)" />
         <added pattern="\Illuminate\Database\Eloquent\Builder.where(column,operator,value,boolean)" />
         <added pattern="\Illuminate\Database\Query\Builder.limit(value)" />
+        <added pattern="\ifActiveRoute(route,outputIfMatch,outputIfNoMatch)" />
       </blacklist>
     </blacklists>
   </component>
