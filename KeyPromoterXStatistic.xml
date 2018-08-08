@@ -62,7 +62,7 @@
           <IdeaActionID>Console.Jdbc.Execute</IdeaActionID>
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Execute</Description>
-          <Count>7</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="Find Usages">
@@ -102,7 +102,7 @@
           <IdeaActionID>ModifyObject</IdeaActionID>
           <ShortCut>'Ctrl+F6'</ShortCut>
           <Description>Modify Table...</Description>
-          <Count>6</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="New Scratch File">
@@ -110,7 +110,7 @@
           <IdeaActionID>NewScratchFile</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+Insert'</ShortCut>
           <Description>New Scratch File</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Paste">
@@ -134,7 +134,7 @@
           <IdeaActionID>Console.TableResult.Reload</IdeaActionID>
           <ShortCut>'F5'</ShortCut>
           <Description>Reload Page</Description>
-          <Count>23</Count>
+          <Count>24</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rename...">
@@ -150,7 +150,7 @@
           <IdeaActionID>ReplaceInPath</IdeaActionID>
           <ShortCut>'Ctrl+Shift+R'</ShortCut>
           <Description>Replace in Path...</Description>
-          <Count>7</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="Revert...">
