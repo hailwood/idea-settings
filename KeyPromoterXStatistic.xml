@@ -38,7 +38,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>124</Count>
+          <Count>127</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -55,6 +55,14 @@
           <ShortCut>'Delete'</ShortCut>
           <Description>Drop</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Edit Maximized">
+        <Item>
+          <IdeaActionID>Console.TableResult.EditValueMaximized</IdeaActionID>
+          <ShortCut>'Shift+Enter' or 'Alt+Shift+Enter'</ShortCut>
+          <Description>Edit Maximized</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Execute">
@@ -102,7 +110,7 @@
           <IdeaActionID>ModifyObject</IdeaActionID>
           <ShortCut>'Ctrl+F6'</ShortCut>
           <Description>Modify Table...</Description>
-          <Count>9</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="New Scratch File">
@@ -110,7 +118,7 @@
           <IdeaActionID>NewScratchFile</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+Insert'</ShortCut>
           <Description>New Scratch File</Description>
-          <Count>5</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Paste">
