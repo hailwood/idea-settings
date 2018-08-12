@@ -1,5 +1,6 @@
 <application>
   <component name="UISettings">
+    <option name="FONT_SCALE" value="2.0" />
     <option name="HIDE_TOOL_STRIPES" value="true" />
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="5" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
