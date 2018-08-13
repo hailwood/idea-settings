@@ -35,6 +35,11 @@
         <added pattern="\App\Annotation.isCalculationStyle(style)" />
         <added pattern="\Illuminate\Database\Eloquent\Builder.where(column,operator,value,boolean)" />
         <added pattern="\Illuminate\Database\Query\Builder.limit(value)" />
+        <added pattern="\ifActiveRoute(route,outputIfMatch,outputIfNoMatch)" />
+        <added pattern="\Illuminate\Database\Query\Builder.value(column)" />
+        <added pattern="\Illuminate\Database\Eloquent\Concerns\HasRelationships.relationLoaded(key)" />
+        <added pattern="\Illuminate\Database\Eloquent\Relations\BelongsTo.associate(model)" />
+        <added pattern="\Illuminate\Database\Eloquent\Builder.value(column)" />
       </blacklist>
     </blacklists>
   </component>
