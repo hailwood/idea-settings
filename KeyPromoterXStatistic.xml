@@ -6,7 +6,7 @@
           <IdeaActionID>Console.TableResult.AddRow</IdeaActionID>
           <ShortCut>'Alt+Insert'</ShortCut>
           <Description>Add New Row</Description>
-          <Count>9</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
       <Statistic Action="Clone Row">
@@ -38,7 +38,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>136</Count>
+          <Count>138</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -55,6 +55,14 @@
           <ShortCut>'Delete'</ShortCut>
           <Description>Drop</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Edit">
+        <Item>
+          <IdeaActionID>Console.TableResult.EditValue</IdeaActionID>
+          <ShortCut>'F2' or 'Enter' or 'Alt+Enter'</ShortCut>
+          <Description>Edit</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Edit Maximized">
