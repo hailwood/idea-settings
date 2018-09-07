@@ -41,6 +41,9 @@
         <added pattern="\Illuminate\Database\Eloquent\Relations\BelongsTo.associate(model)" />
         <added pattern="\Illuminate\Database\Eloquent\Builder.value(column)" />
       </blacklist>
+      <blacklist language="ECMAScript 6">
+        <added pattern="_.truncate(string,options)" />
+      </blacklist>
     </blacklists>
   </component>
 </application>
