@@ -2,22 +2,23 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".env.development" type=".env file" />
-      <mapping pattern="Dockerfile.development" type="Dockerfile" />
-      <mapping ext="docker" type="Dockerfile" />
       <mapping ext="vhtml" type="HTML" />
       <mapping pattern="*.json.development" type="JSON" />
       <mapping pattern=".graphqlconfig" type="JSON" />
       <mapping pattern=".graphqlrc" type="JSON" />
       <mapping pattern="*.php.development" type="PHP" />
+      <mapping pattern="not_real" type="PLAIN_TEXT" />
       <mapping pattern="nphpstormfile" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern="not_real" type="PLAIN_TEXT" />
+      <mapping ext="md" type="PLAIN_TEXT" />
       <mapping ext="ics" type="PLAIN_TEXT" />
       <mapping ext="thing" type="PLAIN_TEXT" />
       <mapping pattern="*.d.ts.stub" type="TypeScript" />
       <mapping pattern="*.yml.development" type="YAML" />
       <mapping pattern=".htaccess.development" type="htaccess" />
+      <mapping ext="docker" type="Dockerfile" />
       <mapping pattern=".zshrc" type="Bash" />
+      <mapping pattern="Dockerfile.development" type="Dockerfile" />
       <mapping pattern="aliases" type="Bash" />
     </extensionMap>
   </component>
