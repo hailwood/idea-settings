@@ -5,4 +5,16 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="form:update" value="&lt;form action=&quot;$VAR0$&quot; method=&quot;post&quot;&gt;&#10;    @csrf&#10;    @method('put')$END$&#10;&lt;/form&gt;" description="Laravel  Form Update" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="form:create" value="&lt;form action=&quot;$VAR0$&quot; method=&quot;post&quot;&gt;&#10;    @csrf$END$&#10;&lt;/form&gt;" description="Laravel  Form Create" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
