@@ -4,6 +4,9 @@
       <blacklist language="TypeScript">
         <added pattern="GraphQLServer.start(options,callback)" />
       </blacklist>
+      <blacklist language="ECMAScript 6">
+        <added pattern="_.truncate(string,options)" />
+      </blacklist>
       <blacklist language="PHP">
         <added pattern="\array_diff(array1,array2,_)" />
         <added pattern="\compact(varname,_)" />
@@ -40,9 +43,7 @@
         <added pattern="\Illuminate\Database\Eloquent\Concerns\HasRelationships.relationLoaded(key)" />
         <added pattern="\Illuminate\Database\Eloquent\Relations\BelongsTo.associate(model)" />
         <added pattern="\Illuminate\Database\Eloquent\Builder.value(column)" />
-      </blacklist>
-      <blacklist language="ECMAScript 6">
-        <added pattern="_.truncate(string,options)" />
+        <added pattern="\preg_replace(pattern,replacement,subject,limit,count)" />
       </blacklist>
     </blacklists>
   </component>
