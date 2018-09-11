@@ -4,6 +4,28 @@
       <CLASSES />
       <SOURCES />
     </library>
+    <library name="prism-core" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_prism_1.15.0_components_prism-core.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_prism_1.15.0_components_prism-core.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="prism-json" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_prism_1.15.0_components_prism-json.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/__cdnjs.cloudflare.com_ajax_libs_prism_1.15.0_components_prism-json.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="smoothscroll" type="javaScript">
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_smoothscroll-polyfill_dist_smoothscroll.js" />
