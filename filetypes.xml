@@ -10,7 +10,6 @@
       <mapping pattern="not_real" type="PLAIN_TEXT" />
       <mapping pattern="nphpstormfile" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping ext="md" type="PLAIN_TEXT" />
       <mapping ext="ics" type="PLAIN_TEXT" />
       <mapping ext="thing" type="PLAIN_TEXT" />
       <mapping pattern="*.d.ts.stub" type="TypeScript" />
