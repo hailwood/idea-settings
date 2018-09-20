@@ -13,10 +13,11 @@
         <LogParsingPattern enabled="false" name="Pipe-separated" pattern="^(?s)([^|]*)\|([^|]*)\|([^|]*)\|(.*)$" timePattern="HH:mm:ss.SSS" linePattern="^\d" timeId="0" severityId="1" categoryId="2" />
         <LogParsingPattern enabled="false" name="IntelliJ IDEA" pattern="^([^\[]+)(\[[\s\d]+])\s*(\w*)\s*-\s*(\S*)\s*-(.+)$" timePattern="yyyy-MM-dd HH:mm:ss,SSS" linePattern="^\d" timeId="0" severityId="2" categoryId="3" />
         <LogParsingPattern enabled="false" name="TeamCity build log" pattern="^\[([^]]+)](.):\s*(\[[^]]+])?(.*)$" timePattern="HH:mm:ss" linePattern="^\[" timeId="0" severityId="1" categoryId="2" />
-        <LogParsingPattern name="Laravel Log" pattern="^\[(.*)\] (.+?)\.([A-Z]+): (.*)" timePattern="yyyy-MM-dd HH:mm:ss" linePattern="^\[\d" timeId="0" severityId="2" categoryId="1" />
+        <LogParsingPattern name="Laravel Log" pattern="^\[(.*)\] ([a-z]+)\.([A-Z]+): (.*)" timePattern="yyyy-MM-dd HH:mm:ss" linePattern="^\[" timeId="0" severityId="2" categoryId="1" />
       </list>
     </parsing>
     <settingsVersion>3</settingsVersion>
     <lastAddedDefaultFormat>3</lastAddedDefaultFormat>
+    <readonlySizeThreshold>511</readonlySizeThreshold>
   </component>
 </application>
