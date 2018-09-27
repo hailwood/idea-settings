@@ -46,6 +46,7 @@
         <added pattern="\preg_replace(pattern,replacement,subject,limit,count)" />
         <added pattern="\Illuminate\Console\Command.comment(string,verbosity)" />
         <added pattern="\str_pad(input,pad_length,pad_string,pad_type)" />
+        <added pattern="\Illuminate\Support\Facades\Route.resource(name,controller,options)" />
       </blacklist>
     </blacklists>
   </component>
