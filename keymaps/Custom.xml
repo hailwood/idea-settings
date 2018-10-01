@@ -21,6 +21,9 @@
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
+  <action id="IncrementalSearch">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="Refresh">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
