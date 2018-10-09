@@ -3,6 +3,7 @@
     <blacklists>
       <blacklist language="PHP">
         <added pattern="\Illuminate\Database\Eloquent\Concerns\HasEvents.observe(classes)" />
+        <added pattern="\SilverStripe\Core\Injector\Injectable.create(args)" />
       </blacklist>
     </blacklists>
   </component>
