@@ -6,6 +6,7 @@
         <added pattern="\SilverStripe\Core\Injector\Injectable.create(args)" />
         <added pattern="\SilverStripe\ORM\FieldType\DBField.create_field(spec,value,name,args)" />
         <added pattern="\file_get_contents(filename,use_include_path,context,offset,maxlen)" />
+        <added pattern="\compact(varname,_)" />
       </blacklist>
     </blacklists>
   </component>
