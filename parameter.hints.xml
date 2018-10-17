@@ -9,6 +9,9 @@
         <added pattern="\compact(varname,_)" />
         <added pattern="\Illuminate\Database\Eloquent\Builder.where(column,operator,value,boolean)" />
       </blacklist>
+      <blacklist language="ECMAScript 6">
+        <added pattern="setTimeout(handler,timeout,arguments)" />
+      </blacklist>
     </blacklists>
   </component>
 </application>
