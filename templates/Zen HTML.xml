@@ -8,4 +8,10 @@
       <option name="JSP" value="true" />
     </context>
   </template>
+  <template name="zmdi" value="&lt;i class=&quot;zmdi zmdi-$ICON$&quot;&gt;&lt;/i&gt;" description="Zmdi Icon" toReformat="false" toShortenFQNames="true">
+    <variable name="ICON" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
 </templateSet>
