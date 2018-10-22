@@ -1,6 +1,10 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
+      <blacklist language="ECMAScript 6">
+        <added pattern="setTimeout(handler,timeout,arguments)" />
+        <added pattern="Array.map(callbackfn,thisArg)" />
+      </blacklist>
       <blacklist language="PHP">
         <added pattern="\Illuminate\Database\Eloquent\Concerns\HasEvents.observe(classes)" />
         <added pattern="\SilverStripe\Core\Injector\Injectable.create(args)" />
@@ -8,9 +12,6 @@
         <added pattern="\file_get_contents(filename,use_include_path,context,offset,maxlen)" />
         <added pattern="\compact(varname,_)" />
         <added pattern="\Illuminate\Database\Eloquent\Builder.where(column,operator,value,boolean)" />
-      </blacklist>
-      <blacklist language="ECMAScript 6">
-        <added pattern="setTimeout(handler,timeout,arguments)" />
       </blacklist>
     </blacklists>
   </component>
