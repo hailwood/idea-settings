@@ -12,6 +12,7 @@
         <added pattern="\file_get_contents(filename,use_include_path,context,offset,maxlen)" />
         <added pattern="\compact(varname,_)" />
         <added pattern="\Illuminate\Database\Eloquent\Builder.where(column,operator,value,boolean)" />
+        <added pattern="\flash(message,level)" />
       </blacklist>
     </blacklists>
   </component>
