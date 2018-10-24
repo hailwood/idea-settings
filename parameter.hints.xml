@@ -13,6 +13,8 @@
         <added pattern="\compact(varname,_)" />
         <added pattern="\Illuminate\Database\Eloquent\Builder.where(column,operator,value,boolean)" />
         <added pattern="\flash(message,level)" />
+        <added pattern="\Illuminate\Routing\Redirector.route(route,parameters,status,headers)" />
+        <added pattern="\sprintf(format,args,_)" />
       </blacklist>
     </blacklists>
   </component>
