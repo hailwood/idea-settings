@@ -4,6 +4,8 @@
       <blacklist language="ECMAScript 6">
         <added pattern="setTimeout(handler,timeout,arguments)" />
         <added pattern="Array.map(callbackfn,thisArg)" />
+        <added pattern="parseFloat(string)" />
+        <added pattern="Math.floor(x)" />
       </blacklist>
       <blacklist language="PHP">
         <added pattern="\Illuminate\Database\Eloquent\Concerns\HasEvents.observe(classes)" />
