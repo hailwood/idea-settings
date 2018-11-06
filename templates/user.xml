@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="tz" value="Pacific/Auckland" description="Pacific/Auckland" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
