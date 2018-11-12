@@ -17,6 +17,7 @@
         <added pattern="\flash(message,level)" />
         <added pattern="\Illuminate\Routing\Redirector.route(route,parameters,status,headers)" />
         <added pattern="\sprintf(format,args,_)" />
+        <added pattern="\array_column(array,column,index_key)" />
       </blacklist>
     </blacklists>
   </component>
