@@ -19,6 +19,8 @@
         <added pattern="\sprintf(format,args,_)" />
         <added pattern="\array_column(array,column,index_key)" />
         <added pattern="\abort_if(boolean,code,message,headers)" />
+        <added pattern="\Illuminate\Http\Concerns\InteractsWithInput.filled(key)" />
+        <added pattern="\Illuminate\Database\Eloquent\Model.update(attributes,options)" />
       </blacklist>
     </blacklists>
   </component>
