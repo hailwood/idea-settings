@@ -18,6 +18,7 @@
         <added pattern="\Illuminate\Routing\Redirector.route(route,parameters,status,headers)" />
         <added pattern="\sprintf(format,args,_)" />
         <added pattern="\array_column(array,column,index_key)" />
+        <added pattern="\abort_if(boolean,code,message,headers)" />
       </blacklist>
     </blacklists>
   </component>
