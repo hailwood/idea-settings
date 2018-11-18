@@ -6,6 +6,11 @@
           <option name="HIGHLIGHT_POLICY" value="BY_WORD_SPLIT" />
         </PlaceSettings>
       </entry>
+      <entry key="DirDiff">
+        <PlaceSettings>
+          <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES" />
+        </PlaceSettings>
+      </entry>
       <entry key="Merge">
         <PlaceSettings>
           <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES" />
