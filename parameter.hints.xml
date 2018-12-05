@@ -21,6 +21,8 @@
         <added pattern="\abort_if(boolean,code,message,headers)" />
         <added pattern="\Illuminate\Http\Concerns\InteractsWithInput.filled(key)" />
         <added pattern="\Illuminate\Database\Eloquent\Model.update(attributes,options)" />
+        <added pattern="\Carbon\Carbon.createFromFormat(format,time,tz)" />
+        <added pattern="\Tightenco\Collect\Support\Collection.get(key,default)" />
       </blacklist>
     </blacklists>
   </component>
