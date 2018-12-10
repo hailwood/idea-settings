@@ -24,6 +24,14 @@
         <added pattern="\Carbon\Carbon.createFromFormat(format,time,tz)" />
         <added pattern="\Tightenco\Collect\Support\Collection.get(key,default)" />
         <added pattern="\explode(delimiter,string,limit)" />
+        <added pattern="\Illuminate\Database\Schema\Blueprint.increments(column)" />
+        <added pattern="\Illuminate\Database\Schema\Blueprint.unsignedInteger(column,autoIncrement)" />
+        <added pattern="\Illuminate\Database\Schema\Blueprint.string(column,length)" />
+        <added pattern="\Illuminate\Database\Schema\Blueprint.float(column,total,places)" />
+        <added pattern="\Illuminate\Database\Schema\Blueprint.timestamp(column,precision)" />
+        <added pattern="\Illuminate\Database\Schema\Blueprint.text(column)" />
+        <added pattern="\Illuminate\Database\Schema\Blueprint.index(columns,name,algorithm)" />
+        <added pattern="\Illuminate\Database\Schema\Blueprint.foreign(columns,name)" />
       </blacklist>
     </blacklists>
   </component>
