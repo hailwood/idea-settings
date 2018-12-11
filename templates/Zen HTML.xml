@@ -14,4 +14,10 @@
       <option name="HTML_TEXT" value="true" />
     </context>
   </template>
+  <template name="zmdi-x" value="zmdi zmdi-x" description="zmdi-x" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="HTML_TEXT" value="false" />
+    </context>
+  </template>
 </templateSet>
