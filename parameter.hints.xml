@@ -32,6 +32,8 @@
         <added pattern="\Illuminate\Database\Schema\Blueprint.text(column)" />
         <added pattern="\Illuminate\Database\Schema\Blueprint.index(columns,name,algorithm)" />
         <added pattern="\Illuminate\Database\Schema\Blueprint.foreign(columns,name)" />
+        <added pattern="\Illuminate\Mail\Mailable.view(view,data)" />
+        <added pattern="\Illuminate\Mail\Mailable.text(textView,data)" />
       </blacklist>
     </blacklists>
   </component>
