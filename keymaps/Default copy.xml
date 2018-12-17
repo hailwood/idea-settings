@@ -4,6 +4,9 @@
   </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="CopyElement" />
+  <action id="EmojiAndSymbols">
+    <keyboard-shortcut first-keystroke="alt add" />
+  </action>
   <action id="Synchronize">
     <keyboard-shortcut first-keystroke="ctrl alt y" />
     <keyboard-shortcut first-keystroke="f5" />
