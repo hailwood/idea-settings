@@ -4,7 +4,7 @@
     <property name="created">2016-09-26T12:42:17</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2016.3.0.0</property>
-    <property name="modified">2018-04-10T16:45:42</property>
+    <property name="modified">2018-12-20T11:56:28</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -19,6 +19,7 @@
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ff0000" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ff0000" />
     <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ff0000" />
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="808080" />
     <option name="FILESTATUS_MERGED" value="7503dc" />
     <option name="FILESTATUS_MODIFIED" value="5180ee" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="3264b4" />
