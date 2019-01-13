@@ -34,6 +34,7 @@
         <added pattern="\Illuminate\Database\Schema\Blueprint.foreign(columns,name)" />
         <added pattern="\Illuminate\Mail\Mailable.view(view,data)" />
         <added pattern="\Illuminate\Mail\Mailable.text(textView,data)" />
+        <added pattern="\throw_unless(condition,exception,parameters)" />
       </blacklist>
     </blacklists>
   </component>
