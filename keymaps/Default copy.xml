@@ -3,10 +3,13 @@
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
+  <action id="ChangesView.UnshelveSilently" />
   <action id="CopyElement" />
+  <action id="EditorToggleCase" />
   <action id="EmojiAndSymbols">
     <keyboard-shortcut first-keystroke="alt add" />
   </action>
+  <action id="ShowUmlDiagramPopup" />
   <action id="Synchronize">
     <keyboard-shortcut first-keystroke="ctrl alt y" />
     <keyboard-shortcut first-keystroke="f5" />
@@ -15,4 +18,7 @@
     <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="UML.ApplyCurrentLayout" />
+  <action id="osmedile.intellij.stringmanip.SwitchCasePopup">
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
+  </action>
 </keymap>
