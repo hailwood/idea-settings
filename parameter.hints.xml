@@ -35,6 +35,7 @@
         <added pattern="\Illuminate\Mail\Mailable.view(view,data)" />
         <added pattern="\Illuminate\Mail\Mailable.text(textView,data)" />
         <added pattern="\throw_unless(condition,exception,parameters)" />
+        <added pattern="\Illuminate\Support\Collection.implode(value,glue)" />
       </blacklist>
     </blacklists>
   </component>
