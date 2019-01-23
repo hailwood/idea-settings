@@ -1,0 +1,6 @@
+<keymap version="1" name="Default copy 1" parent="Default for XWin">
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="ActivateFavoritesToolWindow" />
+</keymap>
